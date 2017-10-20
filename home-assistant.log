@@ -1099,3 +1099,11 @@ ValueError: invalid literal for int() with base 10: '#FF344F'
 2017-10-20 11:02:17 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
 2017-10-20 11:02:27 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
 2017-10-20 11:02:37 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:02:47 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:02:57 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:03:07 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:03:17 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:03:27 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:03:31 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:03:37 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:03:47 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
