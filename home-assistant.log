@@ -1063,3 +1063,25 @@ ValueError: invalid literal for int() with base 10: '#FF344F'
 2017-10-20 10:58:47 WARNING (Thread-5) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
 2017-10-20 10:58:57 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
 2017-10-20 10:59:07 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 10:59:17 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 10:59:27 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 10:59:37 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 10:59:47 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 10:59:57 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:00:07 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:00:17 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:00:23 ERROR (MainThread) [homeassistant.core] Error doing job: Exception in callback async_subscribe.<locals>.async_mqtt_topic_subscriber('/sky/bedroom...ight_01/color', b'#FF344F', 0) at /srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py:213
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/events.py", line 126, in _run
+    self._callback(*self._args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py", line 232, in async_mqtt_topic_subscriber
+    hass.async_run_job(msg_callback, dp_topic, payload, dp_qos)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/core.py", line 247, in async_run_job
+    target(*args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 252, in rgb_received
+    templates[CONF_RGB](payload).split(',')]
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 251, in <listcomp>
+    self._rgb = [int(val) for val in
+ValueError: invalid literal for int() with base 10: '#FF344F'
+2017-10-20 11:00:27 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:00:37 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
