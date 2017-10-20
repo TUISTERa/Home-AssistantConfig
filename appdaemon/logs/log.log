@@ -1303,3 +1303,37 @@ ValueError: !secret used but no secrets file found
 2017-10-20 02:59:35.051138 INFO Got initial state
 2017-10-20 02:59:35.051742 INFO App initialization complete
 2017-10-20 02:59:35.076344 INFO Connected to Home Assistant 0.55.0
+2017-10-20 11:10:02.539194 INFO AppDaemon Version 2.1.10 starting
+2017-10-20 11:10:02.539413 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon/appdaemon.yaml
+2017-10-20 11:10:02.676049 INFO Starting Apps
+2017-10-20 11:10:02.723143 INFO Got initial state
+2017-10-20 11:10:02.723523 INFO App initialization complete
+2017-10-20 11:10:02.723707 INFO Starting dashboard
+2017-10-20 11:10:02.727991 INFO API is disabled
+2017-10-20 11:10:02.758162 INFO Connected to Home Assistant 0.55.0
+2017-10-20 11:10:06.272365 INFO function [get_dashboard] finished in 57 ms
+2017-10-20 11:10:08.882712 INFO New dashboard connected: Main Panel
+2017-10-20 11:11:30.183762 INFO Keyboard interrupt
+2017-10-20 11:11:30.188770 INFO Disconnecting from Home Assistant
+2017-10-20 11:11:31.001738 INFO AppDeamon Exited
+2017-10-20 11:13:31.537975 INFO AppDaemon Version 2.1.10 starting
+2017-10-20 11:13:31.538281 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon/appdaemon.yaml
+2017-10-20 11:13:31.619988 INFO Starting Apps
+2017-10-20 11:13:31.667572 INFO Got initial state
+2017-10-20 11:13:31.667974 INFO App initialization complete
+2017-10-20 11:13:31.668140 INFO Starting dashboard
+2017-10-20 11:13:31.671443 WARNING ------------------------------------------------------------
+2017-10-20 11:13:31.671572 WARNING Unexpected error in dashboard thread
+2017-10-20 11:13:31.671688 WARNING ------------------------------------------------------------
+2017-10-20 11:13:31.695119 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/rundash.py", line 322, in run_dash
+    context.load_cert_chain(conf.dash_ssl_certificate, conf.dash_ssl_key)
+PermissionError: [Errno 13] Permission denied
+
+2017-10-20 11:13:31.695226 WARNING ------------------------------------------------------------
+2017-10-20 11:13:31.695321 INFO API is disabled
+2017-10-20 11:13:31.719734 INFO Connected to Home Assistant 0.55.0
+2017-10-20 11:15:30.468996 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 11:15:35.511915 INFO Got initial state
+2017-10-20 11:15:35.512233 INFO App initialization complete
+2017-10-20 11:15:35.535165 INFO Connected to Home Assistant 0.55.0

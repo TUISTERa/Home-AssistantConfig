@@ -3,6 +3,7 @@
 !scenes
 plex.conf
 secrets.yaml
+appdaemon/secrets.yaml
 known_devices.yaml
 home-assistant.log
 

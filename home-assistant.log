@@ -1107,3 +1107,124 @@ ValueError: invalid literal for int() with base 10: '#FF344F'
 2017-10-20 11:03:31 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
 2017-10-20 11:03:37 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
 2017-10-20 11:03:47 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:03:57 WARNING (Thread-5) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:04:07 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:04:17 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:04:27 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:04:37 WARNING (Thread-5) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:04:47 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:04:57 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:05:07 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:05:17 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:05:23 ERROR (MainThread) [homeassistant.core] Error doing job: Exception in callback async_subscribe.<locals>.async_mqtt_topic_subscriber('/sky/bedroom...ight_01/color', b'#FF344F', 0) at /srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py:213
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/events.py", line 126, in _run
+    self._callback(*self._args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py", line 232, in async_mqtt_topic_subscriber
+    hass.async_run_job(msg_callback, dp_topic, payload, dp_qos)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/core.py", line 247, in async_run_job
+    target(*args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 252, in rgb_received
+    templates[CONF_RGB](payload).split(',')]
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 251, in <listcomp>
+    self._rgb = [int(val) for val in
+ValueError: invalid literal for int() with base 10: '#FF344F'
+2017-10-20 11:05:27 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:05:31 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:05:37 WARNING (Thread-3) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:05:47 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:05:57 WARNING (Thread-5) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:06:07 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:06:17 WARNING (Thread-3) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:06:27 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:06:37 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:06:47 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:06:57 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:07:07 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:07:16 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:07:17 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:07:27 WARNING (Thread-3) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:07:38 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:07:47 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:07:57 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:08:07 WARNING (Thread-3) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:08:17 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:08:27 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:08:37 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:08:47 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:08:57 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:09:07 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:09:17 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:09:27 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:09:37 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:09:47 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:09:57 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:10:07 WARNING (Thread-3) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:10:17 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:10:23 ERROR (MainThread) [homeassistant.core] Error doing job: Exception in callback async_subscribe.<locals>.async_mqtt_topic_subscriber('/sky/bedroom...ight_01/color', b'#FF344F', 0) at /srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py:213
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/events.py", line 126, in _run
+    self._callback(*self._args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py", line 232, in async_mqtt_topic_subscriber
+    hass.async_run_job(msg_callback, dp_topic, payload, dp_qos)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/core.py", line 247, in async_run_job
+    target(*args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 252, in rgb_received
+    templates[CONF_RGB](payload).split(',')]
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 251, in <listcomp>
+    self._rgb = [int(val) for val in
+ValueError: invalid literal for int() with base 10: '#FF344F'
+2017-10-20 11:10:27 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:10:31 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:10:37 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:10:47 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:10:57 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:11:07 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:11:17 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:11:27 WARNING (Thread-5) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:11:37 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:11:47 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:11:57 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:12:07 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:12:16 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:12:17 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:12:18 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: list object has no element 2 (value: [{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362474,"value":"21.29","value_type":"temperature"},{"id":920362475,"value":"43.77","value_type":"humidity"}]},{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362477,"value":"99216.73","value_type":"pressure"}]},{"id":414363629,"sampling_rate":null,"timestamp":"2017-10-20 08:11:17","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920372213,"value":"21.09","value_type":"temperature"},{"id":920372214,"value":"44.46","value_type":"humidity"},{"id":920372215,"value":"99224.30","value_type":"pressure"}]}], template: {{value_json[0].sensordatavalues[2].value | round(0) | float / 100  }})
+2017-10-20 11:12:27 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:12:37 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:12:47 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:12:49 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: list object has no element 2 (value: [{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362474,"value":"21.29","value_type":"temperature"},{"id":920362475,"value":"43.77","value_type":"humidity"}]},{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362477,"value":"99216.73","value_type":"pressure"}]},{"id":414363629,"sampling_rate":null,"timestamp":"2017-10-20 08:11:17","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920372213,"value":"21.09","value_type":"temperature"},{"id":920372214,"value":"44.46","value_type":"humidity"},{"id":920372215,"value":"99224.30","value_type":"pressure"}]}], template: {{value_json[0].sensordatavalues[2].value | round(0) | float / 100  }})
+2017-10-20 11:12:57 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:13:07 WARNING (Thread-2) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:13:17 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:13:19 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: list object has no element 2 (value: [{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362474,"value":"21.29","value_type":"temperature"},{"id":920362475,"value":"43.77","value_type":"humidity"}]},{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362477,"value":"99216.73","value_type":"pressure"}]},{"id":414363629,"sampling_rate":null,"timestamp":"2017-10-20 08:11:17","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920372213,"value":"21.09","value_type":"temperature"},{"id":920372214,"value":"44.46","value_type":"humidity"},{"id":920372215,"value":"99224.30","value_type":"pressure"}]}], template: {{value_json[0].sensordatavalues[2].value | round(0) | float / 100  }})
+2017-10-20 11:13:27 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:13:31 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:13:37 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:13:47 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:13:50 ERROR (MainThread) [homeassistant.helpers.template] Error parsing value: list object has no element 2 (value: [{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362474,"value":"21.29","value_type":"temperature"},{"id":920362475,"value":"43.77","value_type":"humidity"}]},{"id":414359016,"sampling_rate":null,"timestamp":"2017-10-20 08:08:48","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920362477,"value":"99216.73","value_type":"pressure"}]},{"id":414363629,"sampling_rate":null,"timestamp":"2017-10-20 08:11:17","location":{"id":2978,"latitude":"42.011","longitude":"24.879","country":"BG"},"sensor":{"id":5905,"pin":"11","sensor_type":{"id":17,"name":"BME280","manufacturer":"Bosch"}},"sensordatavalues":[{"id":920372213,"value":"21.09","value_type":"temperature"},{"id":920372214,"value":"44.46","value_type":"humidity"},{"id":920372215,"value":"99224.30","value_type":"pressure"}]}], template: {{value_json[0].sensordatavalues[2].value | round(0) | float / 100  }})
+2017-10-20 11:13:57 WARNING (Thread-5) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:14:07 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:14:17 WARNING (Thread-4) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:14:27 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:14:37 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:14:47 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:14:57 WARNING (Thread-10) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:15:07 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:15:17 WARNING (Thread-11) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:15:23 ERROR (MainThread) [homeassistant.core] Error doing job: Exception in callback async_subscribe.<locals>.async_mqtt_topic_subscriber('/sky/bedroom...ight_01/color', b'#FF344F', 0) at /srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py:213
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/events.py", line 126, in _run
+    self._callback(*self._args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/mqtt/__init__.py", line 232, in async_mqtt_topic_subscriber
+    hass.async_run_job(msg_callback, dp_topic, payload, dp_qos)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/core.py", line 247, in async_run_job
+    target(*args)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 252, in rgb_received
+    templates[CONF_RGB](payload).split(',')]
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/light/mqtt.py", line 251, in <listcomp>
+    self._rgb = [int(val) for val in
+ValueError: invalid literal for int() with base 10: '#FF344F'
+2017-10-20 11:15:27 WARNING (Thread-7) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:15:37 WARNING (Thread-6) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:15:47 WARNING (Thread-8) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
+2017-10-20 11:15:57 WARNING (Thread-12) [homeassistant.components.camera.local_file] Could not read camera Front door image from file: /tmp/lastsnap.jpg
