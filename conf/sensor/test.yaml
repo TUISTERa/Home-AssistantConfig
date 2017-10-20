@@ -1,0 +1,33 @@
+
+- platform: rest
+  resource: http://api.luftdaten.info/v1/sensor/5905/
+  name: external temp
+  value_template: '{{value_json[0].sensordatavalues[0].value |  round(1) }}'
+  unit_of_measurement: "°C"
+
+- platform: rest
+  resource: http://api.luftdaten.info/v1/sensor/5905/
+  name: external humidity
+  value_template: '{{value_json[0].sensordatavalues[1].value}}'
+  unit_of_measurement: "%"
+
+- platform: rest
+  resource: http://api.luftdaten.info/v1/sensor/5905/
+  name: external pressure
+  value_template: '{{value_json[0].sensordatavalues[2].value | round(0) | float / 100  }}'
+  unit_of_measurement: "hPa"
+
+
+- platform: rest
+  resource: http://api.luftdaten.info/v1/sensor/5904/
+  name: external pm10
+  friendly_name: PM10
+  value_template: '{{value_json[0].sensordatavalues[0].value}}'
+  unit_of_measurement: "µg/m³"
+
+- platform: rest
+  resource: http://api.luftdaten.info/v1/sensor/5904/
+  name: external pm2.5
+  friendly_name: PM2.5
+  value_template: '{{value_json[0].sensordatavalues[1].value}}'
+  unit_of_measurement: "µg/m³"

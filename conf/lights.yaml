@@ -1,0 +1,92 @@
+- platform: mqtt
+  command_topic: "cmnd/sky/bedroom_1/switch_1/POWER"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  name: "Bedroom 1"
+  retain: true
+
+- platform: mqtt
+  command_topic: "cmnd/"
+  state_topic: "stat/sky/entrance_1/switch_1/POWER"
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  name: "Entrance 1"
+  retain: true
+
+- platform: mqtt
+  command_topic: "cmnd/sky/bedroom_1/switch_1/POWER"
+  state_topic: "stat/sky/bathroom_1/switch_1/POWER"
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  name: "Bathroom 1"
+  retain: true
+
+- platform: mqtt
+  command_topic: "cmnd/"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  name: "Hall 1"
+  retain: true
+
+- platform: mqtt
+  command_topic: "cmnd/"
+  state_topic: "stat/sky/bedroom_2/switch_1/POWER"
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  name: "Bedroom 2"
+  retain: true
+
+# - platform: mqtt
+#   command_topic: "cmnd/"
+#   state_topic: "stat/sky/kitchen_1/switch_1/POWER"
+#   payload_on: "ON"
+#   payload_off: "OFF"
+#   optimistic: false
+#   name: "Kitchen 1"
+#   retain: true
+
+
+- platform: mqtt
+  command_topic: "cmnd/"
+  state_topic: "stat/sky/aquarium_1/switch_1/POWER"
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  name: "Aquarium 1"
+  retain: true
+
+
+- platform: mqtt
+  name: 'Kitchen 1'
+  state_topic: '/sky/bedroom_1/light_01/relay/0'
+  command_topic: '/sky/bedroom_1/light_01/relay/0/set'
+  payload_on: 1
+  payload_off: 0
+  rgb_state_topic: '/sky/bedroom_1/light_01/color'
+  rgb_command_topic: '/sky/bedroom_1/light_01/color/set'
+  rgb: true
+  optimistic: true
+  color_temp: true
+  color_temp_command_topic: '/sky/bedroom_1/light_01/mired/set'
+  brightness: true
+  brightness_scale: 255
+  brightness_command_topic:  '/sky/bedroom_1/light_01/brightness/set'
+  brightness_state_topic: '/sky/bedroom_1/light_01/brightness'
+  white_value: true
+  white_value_command_topic: '/sky/bedroom_1/light_01/channel/3/set'
+  white_value_state_topic: '/sky/bedroom_1/light_01/channel/3'
+
+# - platform: mqtt_json
+#   name: mqtt_json_light_1
+#   state_topic: "/sky/bedroom_1/light_01/data"
+#   command_topic: "/sky/bedroom_1/light_01/data/set"
+#   brightness: true
+#   rgb: true
+#   white_value: true

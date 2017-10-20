@@ -1,0 +1,18 @@
+system_view: 
+  view: yes
+  icon: mdi:settings
+  entities: 
+    - group.ip_addresses
+    - sensor.cpuspeed
+    - sensor.time_date
+    # - group.date_time_cpu
+
+date_time_cpu:
+  name: Система
+  entities:
+
+
+ip_addresses:
+  name: IP адреси
+  entities:
+    - sensor.bedroom_1_switch_1_ip_address

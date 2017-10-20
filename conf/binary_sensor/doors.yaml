@@ -1,0 +1,29 @@
+#FLOORPLAN DUMMY SENSOR
+
+
+##############DOORS DUMMY SENSORS###########################
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: kitchen_door_1
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: kitchen_door_2
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: entrance_door
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: hall_door
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: bathroom_door
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: bedroom_1_door
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: bedroom_2_door
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: laundry_door
+

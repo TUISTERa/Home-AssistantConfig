@@ -1,0 +1,24 @@
+AppDaemon:
+#  disable_apps: 1
+  logfile: /home/homeassistant/.homeassistant/appdaemon/logs/log.log
+  errorfile: /home/homeassistant/.homeassistant/appdaemon/logs/error.log
+  logsize: 100000
+  log_generations: 3
+  threads: 10
+#  cert_path: <path/to/root/CA/cert>
+#  cert_verify: True
+#  time_zone: <time zone>
+#  api_port: 5000
+#  api_key: !secret api_key
+#  api_ssl_certificate: <path/to/root/CA/cert>
+#  api_ssl_key: <path/to/root/CA/key>
+  disable_apps: 1
+
+HASS:
+  ha_url: https://home.failbg.com
+  ha_key: TOSTER
+HADashboard:
+  dash_url: https://home.failbg.com:5050
+  dash_ssl_certificate: /etc/letsencrypt/live/home.failbg.com/fullchain.pem
+  dash_ssl_key: /etc/letsencrypt/live/home.failbg.com/privkey.pem
+

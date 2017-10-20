@@ -1,0 +1,130 @@
+name: Demo Floorplan
+image: /local/custom_ui/floorplan/floorplan.svg
+stylesheet: /local/custom_ui/floorplan/floorplan.css
+
+# These options are optional
+warnings:                  # enable warnings (to find out why things might ot be working correctly)
+#pan_zoom:                  # enable experimental panning / zooming
+#hide_app_toolbar:          # hide the application toolbar (when used as a custom panel)
+date_format: DD-MMM-YYYY   # Date format to use in hover-over text
+
+last_motion_entity: sensor.template_last_motion
+last_motion_class: last-motion
+
+groups:
+
+ 
+  - name: Lights
+    entities:
+      - light.bedroom_1
+      - light.bedroom_2
+      - light.hall_1
+      - light.kitchen_1
+      - light.bathroom_1
+      - light.entrance_1
+    #       - group.all_lights
+    #       - group.living_room_lights
+    states:
+      - state: 'on'
+        class: 'light-on'
+      - state: 'off'
+        class: 'light-off'
+    action:
+ #     domain: homeassistant   # This optional parameter allows you to use other services such as homeassistant.toggle like here.
+      service: toggle
+
+  - name: Doors
+    entities:
+      - binary_sensor.kitchen_door_1
+      - binary_sensor.kitchen_door_2
+      - binary_sensor.entrance_door
+      - binary_sensor.hall_door
+      - binary_sensor.bathroom_door
+      - binary_sensor.bedroom_1_door
+      - binary_sensor.bedroom_2_door
+      - binary_sensor.laundry_door
+    states:
+      - state: 'off'
+        class: 'layer-hidden'
+      - state: 'on'
+    
+
+
+  - name: Windows
+    entities:
+    - binary_sensor.hall_window_1
+    - binary_sensor.hall_window_2
+    - binary_sensor.bedroom_1_window
+    - binary_sensor.bedroom_2_window
+    - binary_sensor.kitchen_window
+
+    # states:
+    #   - state: 'on'
+    #     class: 'layer-visible'
+    #   - state: 'off'
+    #     class: 'layer-hidden'
+    states:
+      - state: 'off'
+        class: 'info-background'
+      - state: 'on'
+        # class: 'warning-background'
+    state_transitions:
+      - name: On to off
+        from_state: 'on'
+        to_state: 'off'
+        duration: 10
+
+
+  - name: Temperatures
+    entities:
+#      - sensor.temp_outside
+      - sensor.temp_hall
+      - sensor.temp_bedroom_1
+      - sensor.temp_bathroom
+      - sensor.temp_bedroom_2
+      - sensor.temp_kitchen
+      - sensor.temp_entrance
+    states:
+      - state: 'on'
+        class: 'layer-visible'
+      - state: 'off'
+        class: 'layer-hidden'
+      - state: 'unknown'
+        class: 'layer-hidden'
+
+
+  - name: Cameras
+    entities:
+      - camera.front_door
+    states:
+      - state: 'idle'
+        class: 'camera-idle'
+
+
+  - name: Media Player
+    entities:
+      - media_player.sonytv 
+      - media_player.bedroom_1      
+      - media_player.bedroom_2      
+    states:
+      - state: 'off'
+        class: 'squeezebox-off'
+      - state: 'on'
+        class: 'squeezebox-on'
+
+
+  - name: Sensors
+    entities:
+       -  sensor.weather_temperature
+    #text_template: '${entity.state ? entity.state : "unknown"}'
+    # An example of rounding up a number, i.e. a temperature of 90.1 becomes 91
+    text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'  
+    class_template: '
+      var temp = parseFloat(entity.state.replace("°", ""));
+      if (temp < 10)
+        return "temp-low";
+      else if (temp < 30)
+        return "temp-medium";
+      else
+        return "temp-high";
+      '

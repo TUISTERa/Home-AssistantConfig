@@ -1,0 +1,25 @@
+- platform: braviatv
+  name: sonytv
+  host: 192.168.13.13
+
+- platform: plex
+  name: plex
+  show_all_controls: true
+  use_episode_art: true
+  use_custom_entity_ids: true
+
+
+- platform: kodi
+  host: 192.168.13.3
+  name: bedroom_1
+
+- platform: kodi
+  host: 192.168.13.13
+  name: bedroom_2
+#- platform: universal
+#  name: skyplayer
+#  children:
+#    - media_player.sonytv
+#    - media_player.kodi_sony
+#    - media_player.plex
+

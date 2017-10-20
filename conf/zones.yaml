@@ -1,0 +1,31 @@
+  - name: Home
+    latitude: !secret latitude
+    longitude: !secret longitude
+    radius: 100
+    icon: mdi:home-assistant
+
+    
+#Places    
+  - name: KidGarden
+    latitude: !secret latitude_1
+    longitude: !secret longitude_1
+    radius: 250
+    icon: mdi:school
+
+  - name: Office
+    latitude: !secret latitude_2
+    longitude: !secret longitude_2
+    icon: mdi:worker
+
+  - name: Maniac
+    latitude: !secret latitude_3
+    longitude: !secret longitude_3
+    icon: mdi:briefcase-check
+
+
+  - name: Cacao
+    latitude: !secret latitude_4
+    longitude: !secret longitude_4
+    icon: mdi:coffee
+
+

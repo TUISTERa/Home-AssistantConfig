@@ -1,0 +1,38 @@
+
+security_view: 
+  view: yes
+  icon: mdi:security-home
+  entities: 
+    - group.cameras
+    - group.doors
+    - group.windows
+
+
+
+doors:
+  name: Врати
+  entities:
+      - binary_sensor.kitchen_door_1
+      - binary_sensor.kitchen_door_2
+      - binary_sensor.entrance_door
+      - binary_sensor.hall_door
+      - binary_sensor.bathroom_door
+      - binary_sensor.bedroom_1_door
+      - binary_sensor.bedroom_2_door
+      - binary_sensor.laundry_door
+
+
+windows:
+  name: Прозорци
+  entities:
+    - binary_sensor.hall_window_1
+    - binary_sensor.hall_window_2
+    - binary_sensor.bedroom_1_window
+    - binary_sensor.bedroom_2_window
+    - binary_sensor.kitchen_window
+
+cameras:
+  name: Камери
+    - camera.front_door
+#    - camera.test_live_cam
+

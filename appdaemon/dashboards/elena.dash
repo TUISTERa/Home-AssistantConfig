@@ -1,0 +1,25 @@
+##
+## Main arguments, all optional
+##
+title: Elena
+widget_dimensions: [120, 120]
+widget_size: [1, 1]
+widget_margins: [5, 5]
+columns: 2
+global_parameters:
+    use_comma: 0
+    precision: 1
+    use_hass_icon: 1
+
+layout:
+    - clock, sensor.dark_sky_temperature
+    - light.kitchen_1, light.bedroom_1
+    - reload
+
+clock:
+    widget_type: clock
+    time_format: 24hr
+
+reload:
+    widget_type: reload
+    title: Презареди

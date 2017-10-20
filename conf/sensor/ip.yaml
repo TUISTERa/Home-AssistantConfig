@@ -1,0 +1,5 @@
+
+- platform: mqtt
+  state_topic: "tele/sky/bedroom_1/switch_1/INFO2"
+  name: "Bedroom 1 Switch 1 IP Address"
+  value_template: '{{ value_json.IPAddress }}'

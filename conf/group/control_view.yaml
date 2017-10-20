@@ -1,0 +1,11 @@
+control_view: 
+  view: yes
+  icon: mdi:tune
+  entities: 
+    - group.switches
+
+
+switches:
+  entities:
+    - group.all_lights
+    - group.all_switches

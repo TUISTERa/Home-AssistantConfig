@@ -1,0 +1,13 @@
+  entities:
+#    - name: Икони
+#      url: https://material.io/icons/
+    - name: Router 2
+      url: http://192.168.13.2/
+    - name: Home Assistant
+      url: https://home-assistant.io
+    - name: Good Config
+      url: https://github.com/CiquattroFPV/Homeassistant-Example-Config
+    - name: Icons
+      url: https://material.io/icons/
+    - name: Sonoff-HomeAssistant
+      url: https://github.com/KmanOz/Sonoff-HomeAssistant

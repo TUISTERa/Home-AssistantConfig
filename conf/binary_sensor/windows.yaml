@@ -1,0 +1,16 @@
+###################WINDOWS DUMMY SENSORS#################
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: hall_window_1
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: hall_window_2
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: bedroom_1_window
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: bedroom_2_window
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: kitchen_window

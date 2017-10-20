@@ -1,0 +1,52 @@
+- platform: yr
+  forecast: 24
+  name: Weather
+  monitored_conditions:
+    - temperature
+    - symbol
+#      - precipitation
+#      - windSpeed
+#      - pressure
+#      - windDirection
+    - humidity
+#      - fog
+#      - cloudiness
+#      - lowClouds
+#      - mediumClouds
+#      - highClouds
+#      - dewpointTemperature
+
+
+#DARK SKY
+- platform: darksky
+  api_key: !secret darksky_api_key
+  monitored_conditions:
+    - temperature
+    - summary
+    - icon
+
+#WUNDERGROUND
+- platform: wunderground
+  api_key: !secret wunderground_api_key
+  monitored_conditions:
+    - weather_1d_metric
+    - weather_1n_metric
+    - weather_2d_metric
+    - weather_3d_metric
+    - weather_4d_metric
+
+#WUNDERGROUND OVERVIEW
+- platform: wunderground
+  api_key: !secret wunderground_api_key
+  monitored_conditions:
+#      - temp_high_record_c
+    - temp_high_1d_c
+    - temp_c
+    - temp_low_1d_c
+#      - temp_low_record_c
+    - precip_1d
+    - precip_1d_mm
+    - wind_kph
+    - wind_1d_kph
+    - alerts
+

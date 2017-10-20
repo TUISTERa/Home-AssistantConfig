@@ -1,0 +1,54 @@
+- platform: mqtt
+  name: "Bathroom fan switch"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  command_topic: "cmnd/sky/bedroom_1/switch_1/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Aquarium switch 2"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  command_topic: "cmnd/"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Sonoff switch 3"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  command_topic: "cmnd/"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Sonoff switch 4"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  command_topic: "cmnd/"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Sonoff switch 5"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  command_topic: "cmnd/"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Sonoff switch 6"
+  state_topic: "stat/sky/bedroom_1/switch_1/POWER"
+  command_topic: "cmnd/"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+

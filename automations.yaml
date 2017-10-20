@@ -1,0 +1,62 @@
+
+################# USER IS HOME#######################
+- alias: Check if user is at home and notify
+  id: '1507552517531'
+  trigger:
+    platform: state
+    entity_id: device_tracker.georgi_coolpad
+    from: 'not_home'
+    to: 'home'
+  action:
+    service: notify.Telegram
+    data:
+      message: 'Georgi is home'      
+
+
+- alias: ChargedBattery
+  id: '1507552517534'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.battery_georgi_coolpad
+    above: 99
+  action:
+    service: notify.Telegram
+    data_template:
+      title: "Battery is charged"
+      message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"      
+
+- alias: LowBattery
+  id: '1507552517533'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.battery_georgi_coolpad
+    below: 20
+  action:
+    service: notify.Telegram
+    data_template:
+      title: "Battery is low"
+      message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"
+
+# - action:
+#   - alias: Teleram
+#     data:
+#       message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % "
+#     service: notify.Telegram
+#   alias: TestBattery
+#   condition: []
+#   id: '1507552517538'
+#   trigger:
+#   - below: '30'
+#     entity_id: sensor.battery_georgi_coolpad
+#     platform: numeric_state
+
+
+- alias: Update notifications
+  id: '1507552517548'
+  trigger:
+    - platform: state
+      entity_id: updater.updater
+  action:
+    service: notify.Telegram
+    data:
+      message: 'There is a new Home Assistant release available.'

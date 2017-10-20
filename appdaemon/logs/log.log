@@ -1,0 +1,1305 @@
+2017-10-18 07:07:39.275906 INFO AppDaemon Version 2.1.10 starting
+2017-10-18 07:07:39.276138 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon/appdaemon.yaml
+2017-10-18 07:07:39.388858 INFO Starting Apps
+2017-10-18 07:07:39.439951 INFO Got initial state
+2017-10-18 07:07:39.440330 INFO App initialization complete
+2017-10-18 07:07:39.440492 INFO Starting dashboard
+2017-10-18 07:07:39.471259 INFO API is disabled
+2017-10-18 07:07:39.494605 INFO Connected to Home Assistant 0.55.0
+2017-10-18 07:08:09.125659 INFO New dashboard connected: Main Panel
+2017-10-18 07:08:12.704794 INFO Keyboard interrupt
+2017-10-18 07:08:12.709804 INFO Disconnecting from Home Assistant
+2017-10-18 07:08:13.001311 INFO AppDeamon Exited
+2017-10-18 07:08:53.689056 INFO AppDaemon Version 2.1.10 starting
+2017-10-18 07:08:53.689288 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon/appdaemon.yaml
+2017-10-18 07:08:53.771641 INFO Starting Apps
+2017-10-18 07:08:53.818481 INFO Got initial state
+2017-10-18 07:08:53.818847 INFO App initialization complete
+2017-10-18 07:08:53.819011 INFO Starting dashboard
+2017-10-18 07:08:53.822780 INFO API is disabled
+2017-10-18 07:08:53.846225 INFO Connected to Home Assistant 0.55.0
+2017-10-18 07:09:02.496158 INFO New dashboard connected: Main Panel
+2017-10-18 07:18:04.407844 INFO Keyboard interrupt
+2017-10-18 07:18:04.412766 INFO Disconnecting from Home Assistant
+2017-10-18 07:18:05.001655 INFO AppDeamon Exited
+2017-10-18 07:18:07.977815 INFO AppDaemon Version 2.1.10 starting
+2017-10-18 07:18:07.978033 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon/appdaemon.yaml
+2017-10-18 07:18:08.060133 INFO Starting Apps
+2017-10-18 07:18:08.113157 INFO Got initial state
+2017-10-18 07:18:08.113531 INFO App initialization complete
+2017-10-18 07:18:08.113693 INFO Starting dashboard
+2017-10-18 07:18:08.117434 INFO API is disabled
+2017-10-18 07:18:08.140775 INFO Connected to Home Assistant 0.55.0
+2017-10-18 07:18:08.237441 INFO New dashboard connected: Main Panel
+2017-10-18 07:18:13.478561 INFO Compiling dashboard 'main'
+2017-10-18 07:18:13.689735 INFO function [get_dashboard] finished in 213 ms
+2017-10-18 07:18:13.707275 INFO Dashboard disconnected
+2017-10-18 07:18:14.741637 INFO New dashboard connected: Main Panel
+2017-10-18 07:35:39.306649 INFO Dashboard disconnected
+2017-10-18 07:40:18.219141 INFO New dashboard connected: Main Panel
+2017-10-18 07:46:19.645467 INFO function [get_dashboard] finished in 21 ms
+2017-10-18 07:46:22.908132 INFO New dashboard connected: Main Panel
+2017-10-18 07:51:34.283311 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:51:39.315624 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:51:44.378346 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:51:49.406754 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:51:54.437486 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:51:59.467640 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:52:04.506010 INFO Got initial state
+2017-10-18 07:52:04.506295 INFO App initialization complete
+2017-10-18 07:52:04.548521 INFO Connected to Home Assistant 0.55.0
+2017-10-18 07:53:37.884896 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:53:42.915461 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:53:47.948121 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-18 07:53:50.643547 INFO Keyboard interrupt
+2017-10-18 07:53:52.974273 INFO Disconnecting from Home Assistant
+2017-10-18 07:53:52.974809 INFO AppDeamon Exited
+2017-10-18 07:53:57.951031 INFO AppDaemon Version 2.1.10 starting
+2017-10-18 07:53:57.951255 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon/appdaemon.yaml
+2017-10-18 07:53:58.016437 WARNING Unable to connect to Home Assistant, retrying in 5 seconds
+2017-10-18 07:54:03.075170 INFO Starting Apps
+2017-10-18 07:54:03.121996 INFO Got initial state
+2017-10-18 07:54:03.122392 INFO App initialization complete
+2017-10-18 07:54:03.122554 INFO Starting dashboard
+2017-10-18 07:54:03.126321 INFO API is disabled
+2017-10-18 07:54:03.149969 INFO Connected to Home Assistant 0.55.0
+2017-10-18 07:54:03.609947 INFO New dashboard connected: Main Panel
+2017-10-18 07:54:03.896472 INFO Compiling dashboard 'main'
+2017-10-18 07:54:04.107490 INFO function [get_dashboard] finished in 213 ms
+2017-10-18 07:54:04.126670 INFO Dashboard disconnected
+2017-10-18 07:54:05.132888 INFO New dashboard connected: Main Panel
+2017-10-18 07:54:45.101221 INFO New dashboard connected: Main Panel
+2017-10-18 08:02:46.266918 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 08:02:46.362500 INFO Dashboard disconnected
+2017-10-18 08:02:48.753056 INFO New dashboard connected: Main Panel
+2017-10-18 08:10:01.617117 INFO Dashboard disconnected
+2017-10-18 08:10:17.693129 INFO Dashboard disconnected
+2017-10-18 08:10:51.803425 INFO New dashboard connected: Main Panel
+2017-10-18 08:10:56.929713 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 08:10:57.003260 INFO Dashboard disconnected
+2017-10-18 08:10:58.356053 INFO New dashboard connected: Main Panel
+2017-10-18 08:16:02.623668 INFO function [get_dashboard] finished in 21 ms
+2017-10-18 08:16:04.511911 INFO New dashboard connected: Main Panel
+2017-10-18 08:16:06.702353 INFO Dashboard disconnected
+2017-10-18 09:32:56.497261 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 09:32:57.470643 INFO New dashboard connected: Main Panel
+2017-10-18 09:34:09.691346 INFO Compiling dashboard 'main'
+2017-10-18 09:34:09.903636 INFO function [get_dashboard] finished in 214 ms
+2017-10-18 09:34:09.924516 INFO Dashboard disconnected
+2017-10-18 09:34:10.478468 INFO New dashboard connected: Main Panel
+2017-10-18 09:34:35.884543 INFO function [get_dashboard] finished in 21 ms
+2017-10-18 09:34:38.408528 INFO New dashboard connected: Main Panel
+2017-10-18 11:00:48.098463 INFO New dashboard connected: Main Panel
+2017-10-18 11:00:57.791022 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 11:00:58.051924 INFO Dashboard disconnected
+2017-10-18 11:01:01.860246 INFO New dashboard connected: Main Panel
+2017-10-18 11:01:08.974611 INFO Dashboard disconnected
+2017-10-18 11:17:45.617030 INFO Dashboard disconnected
+2017-10-18 11:17:45.617558 INFO Dashboard disconnected
+2017-10-18 13:08:35.472631 INFO Dashboard disconnected
+2017-10-18 20:27:29.353810 INFO function [get_dashboard] finished in 53 ms
+2017-10-18 20:27:34.204232 INFO New dashboard connected: Main Panel
+2017-10-18 20:50:16.106487 INFO Dashboard disconnected
+2017-10-18 21:45:45.711150 INFO New dashboard connected: Main Panel
+2017-10-18 21:45:56.448264 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 21:45:56.468080 INFO Dashboard disconnected
+2017-10-18 21:45:57.294151 INFO New dashboard connected: Main Panel
+2017-10-18 21:48:56.382258 INFO Dashboard disconnected
+2017-10-18 21:49:43.235634 INFO Compiling dashboard 'main'
+2017-10-18 21:49:43.466346 INFO function [get_dashboard] finished in 233 ms
+2017-10-18 21:49:45.796509 INFO New dashboard connected: Main Panel
+2017-10-18 21:51:45.951256 INFO Compiling dashboard 'main'
+2017-10-18 21:51:46.139580 INFO function [get_dashboard] finished in 190 ms
+2017-10-18 21:51:46.153058 INFO Dashboard disconnected
+2017-10-18 21:51:47.297827 INFO New dashboard connected: Main Panel
+2017-10-18 21:53:51.354239 INFO Compiling dashboard 'main'
+2017-10-18 21:53:51.544856 INFO function [get_dashboard] finished in 193 ms
+2017-10-18 21:53:51.561770 INFO Dashboard disconnected
+2017-10-18 21:53:52.369555 INFO New dashboard connected: Main Panel
+2017-10-18 21:54:40.607319 INFO Compiling dashboard 'main'
+2017-10-18 21:54:40.790892 INFO function [get_dashboard] finished in 185 ms
+2017-10-18 21:54:40.817012 INFO Dashboard disconnected
+2017-10-18 21:54:41.778161 INFO New dashboard connected: Main Panel
+2017-10-18 21:57:29.295395 INFO Compiling dashboard 'main'
+2017-10-18 21:57:29.486432 INFO function [get_dashboard] finished in 193 ms
+2017-10-18 21:57:29.505609 INFO Dashboard disconnected
+2017-10-18 21:57:30.513784 INFO New dashboard connected: Main Panel
+2017-10-18 21:57:41.376447 INFO Keyboard interrupt
+2017-10-18 21:57:41.381732 INFO Disconnecting from Home Assistant
+2017-10-18 21:57:42.001748 INFO AppDeamon Exited
+2017-10-18 21:57:48.653079 INFO AppDaemon Version 2.1.10 starting
+2017-10-18 21:57:48.653297 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon/appdaemon.yaml
+2017-10-18 21:57:48.778527 INFO Starting Apps
+2017-10-18 21:57:48.845153 INFO Got initial state
+2017-10-18 21:57:48.845526 INFO App initialization complete
+2017-10-18 21:57:48.845688 INFO Starting dashboard
+2017-10-18 21:57:48.849647 INFO API is disabled
+2017-10-18 21:57:48.894207 INFO Connected to Home Assistant 0.55.0
+2017-10-18 21:57:50.377509 INFO New dashboard connected: Main Panel
+2017-10-18 21:57:57.308861 INFO function [get_dashboard] finished in 22 ms
+2017-10-18 21:57:57.323652 INFO Dashboard disconnected
+2017-10-18 21:57:58.388081 INFO New dashboard connected: Main Panel
+2017-10-18 21:58:32.809739 INFO Compiling dashboard 'main'
+2017-10-18 21:58:33.001887 INFO function [get_dashboard] finished in 194 ms
+2017-10-18 21:58:33.017686 INFO Dashboard disconnected
+2017-10-18 21:58:33.822522 INFO New dashboard connected: Main Panel
+2017-10-18 21:58:53.493940 INFO Compiling dashboard 'main'
+2017-10-18 21:58:53.685208 INFO function [get_dashboard] finished in 193 ms
+2017-10-18 21:58:53.896299 INFO Dashboard disconnected
+2017-10-18 21:58:54.765306 INFO New dashboard connected: Main Panel
+2017-10-18 21:59:25.107681 INFO Compiling dashboard 'elena'
+2017-10-18 21:59:25.171283 WARNING Dashboard 'elena' not found
+2017-10-18 21:59:25.171551 WARNING ------------------------------------------------------------
+2017-10-18 21:59:25.171653 WARNING Unexpected error during DASH creation
+2017-10-18 21:59:25.171736 WARNING ------------------------------------------------------------
+2017-10-18 21:59:25.233036 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 803, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/appdaemon/compiled/html/default/elena_head.html'
+
+2017-10-18 21:59:25.233164 WARNING ------------------------------------------------------------
+2017-10-18 21:59:25.233258 INFO function [get_dashboard] finished in 128 ms
+2017-10-18 21:59:25.287952 INFO Dashboard disconnected
+2017-10-18 22:00:25.124924 INFO Compiling dashboard 'elena'
+2017-10-18 22:00:25.289544 INFO function [get_dashboard] finished in 167 ms
+2017-10-18 22:00:27.586535 INFO New dashboard connected: Elena
+2017-10-18 22:00:27.704115 INFO function [get_dashboard] finished in 21 ms
+2017-10-18 22:00:27.725924 INFO Dashboard disconnected
+2017-10-18 22:00:28.504384 INFO New dashboard connected: Elena
+2017-10-18 22:02:12.868277 INFO Compiling dashboard 'elena'
+2017-10-18 22:02:13.042757 INFO function [get_dashboard] finished in 176 ms
+2017-10-18 22:02:13.062023 INFO Dashboard disconnected
+2017-10-18 22:02:13.948824 INFO New dashboard connected: Elena
+2017-10-18 22:02:15.928971 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 22:02:15.944062 INFO Dashboard disconnected
+2017-10-18 22:02:16.632014 INFO New dashboard connected: Elena
+2017-10-18 22:02:17.233076 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 22:02:17.269241 INFO Dashboard disconnected
+2017-10-18 22:02:17.718552 INFO New dashboard connected: Elena
+2017-10-18 22:02:18.626270 INFO function [get_dashboard] finished in 17 ms
+2017-10-18 22:02:18.643386 INFO Dashboard disconnected
+2017-10-18 22:02:19.029376 INFO New dashboard connected: Elena
+2017-10-18 22:02:47.863870 INFO Compiling dashboard 'main'
+2017-10-18 22:02:47.975575 WARNING Unable to find widget definition for 'reload'
+2017-10-18 22:02:48.054692 INFO function [get_dashboard] finished in 193 ms
+2017-10-18 22:02:50.261689 INFO New dashboard connected: Main Panel
+2017-10-18 22:03:14.611666 INFO Compiling dashboard 'main'
+2017-10-18 22:03:14.810293 INFO function [get_dashboard] finished in 201 ms
+2017-10-18 22:03:14.835333 INFO Dashboard disconnected
+2017-10-18 22:03:15.816025 INFO New dashboard connected: Main Panel
+2017-10-18 22:03:16.996880 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 22:03:17.024467 INFO Dashboard disconnected
+2017-10-18 22:03:17.391655 INFO New dashboard connected: Main Panel
+2017-10-18 22:04:31.771334 INFO Compiling dashboard 'main'
+2017-10-18 22:04:32.062308 WARNING Unable to find widget type 'binary'
+2017-10-18 22:04:32.062585 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 287, in _load_widget
+    yaml_file, templates = self._do_subs(yaml_path, instantiated_widget, '""')
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 194, in _do_subs
+    with open(file, 'r') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/appdaemon/widgets/binary.yaml'
+
+2017-10-18 22:04:32.062765 WARNING Unable to find widget type 'binary'
+2017-10-18 22:04:32.062921 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 287, in _load_widget
+    yaml_file, templates = self._do_subs(yaml_path, instantiated_widget, '""')
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 194, in _do_subs
+    with open(file, 'r') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/appdaemon/widgets/binary.yaml'
+
+2017-10-18 22:04:32.063094 WARNING Unable to find widget type 'binary'
+2017-10-18 22:04:32.063249 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 287, in _load_widget
+    yaml_file, templates = self._do_subs(yaml_path, instantiated_widget, '""')
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 194, in _do_subs
+    with open(file, 'r') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/appdaemon/widgets/binary.yaml'
+
+2017-10-18 22:04:32.063422 WARNING Unable to find widget type 'binary'
+2017-10-18 22:04:32.063578 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 287, in _load_widget
+    yaml_file, templates = self._do_subs(yaml_path, instantiated_widget, '""')
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 194, in _do_subs
+    with open(file, 'r') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/appdaemon/widgets/binary.yaml'
+
+2017-10-18 22:04:32.228797 INFO function [get_dashboard] finished in 459 ms
+2017-10-18 22:04:32.247412 INFO Dashboard disconnected
+2017-10-18 22:04:33.403788 INFO New dashboard connected: Main Panel
+2017-10-18 22:04:38.005056 INFO Compiling dashboard 'Outside'
+2017-10-18 22:04:38.070049 WARNING Dashboard 'Outside' not found
+2017-10-18 22:04:38.070336 WARNING ------------------------------------------------------------
+2017-10-18 22:04:38.070425 WARNING Unexpected error during DASH creation
+2017-10-18 22:04:38.070510 WARNING ------------------------------------------------------------
+2017-10-18 22:04:38.070699 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 803, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/appdaemon/compiled/html/default/outside_head.html'
+
+2017-10-18 22:04:38.070787 WARNING ------------------------------------------------------------
+2017-10-18 22:04:38.070878 INFO function [get_dashboard] finished in 69 ms
+2017-10-18 22:04:38.095887 INFO Dashboard disconnected
+2017-10-18 22:04:40.646893 INFO New dashboard connected: Main Panel
+2017-10-18 22:04:56.953132 INFO Dashboard disconnected
+2017-10-18 22:06:28.747381 INFO Compiling dashboard 'main'
+2017-10-18 22:06:28.848692 WARNING Unable to find widget type 'binary'
+2017-10-18 22:06:28.848975 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 287, in _load_widget
+    yaml_file, templates = self._do_subs(yaml_path, instantiated_widget, '""')
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 194, in _do_subs
+    with open(file, 'r') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/appdaemon/widgets/binary.yaml'
+
+2017-10-18 22:06:28.946964 INFO function [get_dashboard] finished in 202 ms
+2017-10-18 22:06:29.695946 INFO New dashboard connected: Main Panel
+2017-10-18 22:38:55.174895 INFO Compiling dashboard 'main'
+2017-10-18 22:38:55.385945 INFO function [get_dashboard] finished in 213 ms
+2017-10-18 22:38:55.406375 INFO Dashboard disconnected
+2017-10-18 22:38:56.309422 INFO New dashboard connected: Main Panel
+2017-10-18 22:40:13.669295 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 22:40:19.012876 INFO New dashboard connected: Main Panel
+2017-10-18 22:40:41.823411 INFO function [get_dashboard] finished in 21 ms
+2017-10-18 22:40:41.864195 INFO Dashboard disconnected
+2017-10-18 22:40:43.672515 INFO New dashboard connected: Main Panel
+2017-10-18 22:42:08.700680 INFO Compiling dashboard 'main'
+2017-10-18 22:42:08.779820 WARNING Unable to find widget definition for ''
+2017-10-18 22:42:08.905235 INFO function [get_dashboard] finished in 207 ms
+2017-10-18 22:42:08.929353 INFO Dashboard disconnected
+2017-10-18 22:42:10.976281 INFO New dashboard connected: Main Panel
+2017-10-18 22:42:49.602698 INFO Compiling dashboard 'main'
+2017-10-18 22:42:49.805150 INFO function [get_dashboard] finished in 204 ms
+2017-10-18 22:42:49.937238 INFO Dashboard disconnected
+2017-10-18 22:42:52.644638 INFO New dashboard connected: Main Panel
+2017-10-18 22:43:46.843027 INFO Compiling dashboard 'main'
+2017-10-18 22:43:47.046889 INFO function [get_dashboard] finished in 206 ms
+2017-10-18 22:43:47.091106 INFO Dashboard disconnected
+2017-10-18 22:43:48.664614 INFO New dashboard connected: Main Panel
+2017-10-18 22:44:02.599050 INFO Compiling dashboard 'main'
+2017-10-18 22:44:02.800321 INFO function [get_dashboard] finished in 203 ms
+2017-10-18 22:44:03.371120 INFO Dashboard disconnected
+2017-10-18 22:44:04.995996 INFO New dashboard connected: Main Panel
+2017-10-18 22:45:16.808418 INFO Compiling dashboard 'main'
+2017-10-18 22:45:17.014817 INFO function [get_dashboard] finished in 208 ms
+2017-10-18 22:45:17.132225 INFO Dashboard disconnected
+2017-10-18 22:45:18.722087 INFO New dashboard connected: Main Panel
+2017-10-18 22:46:18.909563 INFO Dashboard disconnected
+2017-10-18 22:51:01.457888 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 22:51:04.760334 INFO New dashboard connected: Main Panel
+2017-10-18 22:51:09.924246 INFO Dashboard disconnected
+2017-10-18 22:51:12.106591 INFO Compiling dashboard 'elena'
+2017-10-18 22:51:12.277949 INFO function [get_dashboard] finished in 173 ms
+2017-10-18 22:51:13.794174 INFO New dashboard connected: Elena
+2017-10-18 22:51:15.442663 INFO Dashboard disconnected
+2017-10-18 22:51:26.575154 INFO Compiling dashboard 'main'
+2017-10-18 22:51:26.778684 INFO function [get_dashboard] finished in 206 ms
+2017-10-18 22:51:27.849001 INFO New dashboard connected: Main Panel
+2017-10-18 22:56:10.574493 INFO Compiling dashboard 'main'
+2017-10-18 22:56:10.823470 INFO function [get_dashboard] finished in 251 ms
+2017-10-18 22:56:11.054844 INFO Dashboard disconnected
+2017-10-18 22:56:12.065896 INFO New dashboard connected: Main Panel
+2017-10-18 22:56:32.987681 INFO Compiling dashboard 'main'
+2017-10-18 22:56:33.236549 INFO function [get_dashboard] finished in 252 ms
+2017-10-18 22:56:33.253535 INFO Dashboard disconnected
+2017-10-18 22:56:34.091757 INFO New dashboard connected: Main Panel
+2017-10-18 22:56:35.767691 INFO Compiling dashboard 'Test'
+2017-10-18 22:56:35.835091 WARNING Dashboard 'Test' not found
+2017-10-18 22:56:35.835379 WARNING ------------------------------------------------------------
+2017-10-18 22:56:35.835486 WARNING Unexpected error during DASH creation
+2017-10-18 22:56:35.835569 WARNING ------------------------------------------------------------
+2017-10-18 22:56:35.835775 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 803, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/appdaemon/compiled/html/simplyred/test_head.html'
+
+2017-10-18 22:56:35.835862 WARNING ------------------------------------------------------------
+2017-10-18 22:56:35.835952 INFO function [get_dashboard] finished in 96 ms
+2017-10-18 22:56:35.871624 INFO Dashboard disconnected
+2017-10-18 22:56:38.951888 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:16.431353 INFO Compiling dashboard 'main'
+2017-10-18 22:57:16.671394 INFO function [get_dashboard] finished in 242 ms
+2017-10-18 22:57:16.721291 INFO Dashboard disconnected
+2017-10-18 22:57:17.632215 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:18.492472 INFO Compiling dashboard 'main'
+2017-10-18 22:57:18.739179 INFO function [get_dashboard] finished in 249 ms
+2017-10-18 22:57:18.758544 INFO Dashboard disconnected
+2017-10-18 22:57:19.413658 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:20.642841 INFO Compiling dashboard 'main'
+2017-10-18 22:57:20.892229 INFO function [get_dashboard] finished in 252 ms
+2017-10-18 22:57:20.911050 INFO Dashboard disconnected
+2017-10-18 22:57:21.694919 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:23.260894 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 22:57:23.280351 INFO Dashboard disconnected
+2017-10-18 22:57:23.680754 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:24.710997 INFO Compiling dashboard 'main'
+2017-10-18 22:57:25.005163 INFO function [get_dashboard] finished in 296 ms
+2017-10-18 22:57:25.022507 INFO Dashboard disconnected
+2017-10-18 22:57:25.778016 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:26.549448 INFO Compiling dashboard 'main'
+2017-10-18 22:57:26.832409 INFO function [get_dashboard] finished in 286 ms
+2017-10-18 22:57:26.852944 INFO Dashboard disconnected
+2017-10-18 22:57:27.481226 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:29.652702 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 22:57:29.675727 INFO Dashboard disconnected
+2017-10-18 22:57:30.088501 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:30.877341 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 22:57:30.896579 INFO Dashboard disconnected
+2017-10-18 22:57:31.354911 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:33.504373 INFO function [get_dashboard] finished in 21 ms
+2017-10-18 22:57:33.530269 INFO Dashboard disconnected
+2017-10-18 22:57:34.013280 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:35.325523 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 22:57:35.342483 INFO Dashboard disconnected
+2017-10-18 22:57:35.795831 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:37.684019 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 22:57:37.713334 INFO Dashboard disconnected
+2017-10-18 22:57:38.151368 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:39.447450 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 22:57:39.480803 INFO Dashboard disconnected
+2017-10-18 22:57:39.910690 INFO New dashboard connected: Main Panel
+2017-10-18 22:57:40.707402 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 22:57:40.727712 INFO Dashboard disconnected
+2017-10-18 22:57:41.104014 INFO New dashboard connected: Main Panel
+2017-10-18 23:07:11.481021 INFO Compiling dashboard 'main'
+2017-10-18 23:07:11.560633 WARNING ------------------------------------------------------------
+2017-10-18 23:07:11.560807 WARNING Unexpected error during DASH creation
+2017-10-18 23:07:11.560892 WARNING ------------------------------------------------------------
+2017-10-18 23:07:11.614368 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 788, in get_dashboard
+    dash = self._conditional_compile(name, skin, recompile)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 731, in _conditional_compile
+    dash = self._get_dash(name, skin, skindir)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 534, in _get_dash
+    dash = self._create_dash(name, css_vars)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 422, in _create_dash
+    dash, layout, occupied, includes = self._create_sub_dash(name, "dash", 0, {}, [], 1, css_vars, None)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 453, in _create_sub_dash
+    dash_params = yaml.load(defs)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/__init__.py", line 72, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 37, in get_single_data
+    return self.construct_document(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 46, in construct_document
+    for dummy in generator:
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 398, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 204, in construct_mapping
+    return super().construct_mapping(node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 129, in construct_mapping
+    value = self.construct_object(value_node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 86, in construct_object
+    data = constructor(self, node)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/utils.py", line 107, in _secret_yaml
+    raise ValueError("!secret used but no secrets file found")
+ValueError: !secret used but no secrets file found
+
+2017-10-18 23:07:11.614513 WARNING ------------------------------------------------------------
+2017-10-18 23:07:11.614788 INFO function [get_dashboard] finished in 136 ms
+2017-10-18 23:07:11.633425 INFO Dashboard disconnected
+2017-10-18 23:07:13.521420 INFO New dashboard connected: Main Panel
+2017-10-18 23:07:15.049758 INFO Compiling dashboard 'main'
+2017-10-18 23:07:15.132845 WARNING ------------------------------------------------------------
+2017-10-18 23:07:15.133031 WARNING Unexpected error during DASH creation
+2017-10-18 23:07:15.133115 WARNING ------------------------------------------------------------
+2017-10-18 23:07:15.133415 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 788, in get_dashboard
+    dash = self._conditional_compile(name, skin, recompile)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 731, in _conditional_compile
+    dash = self._get_dash(name, skin, skindir)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 534, in _get_dash
+    dash = self._create_dash(name, css_vars)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 422, in _create_dash
+    dash, layout, occupied, includes = self._create_sub_dash(name, "dash", 0, {}, [], 1, css_vars, None)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 453, in _create_sub_dash
+    dash_params = yaml.load(defs)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/__init__.py", line 72, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 37, in get_single_data
+    return self.construct_document(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 46, in construct_document
+    for dummy in generator:
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 398, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 204, in construct_mapping
+    return super().construct_mapping(node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 129, in construct_mapping
+    value = self.construct_object(value_node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 86, in construct_object
+    data = constructor(self, node)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/utils.py", line 107, in _secret_yaml
+    raise ValueError("!secret used but no secrets file found")
+ValueError: !secret used but no secrets file found
+
+2017-10-18 23:07:15.133525 WARNING ------------------------------------------------------------
+2017-10-18 23:07:15.133759 INFO function [get_dashboard] finished in 86 ms
+2017-10-18 23:07:15.152660 INFO Dashboard disconnected
+2017-10-18 23:07:17.473954 INFO New dashboard connected: Main Panel
+2017-10-18 23:07:34.547484 INFO Compiling dashboard 'main'
+2017-10-18 23:07:34.629678 WARNING ------------------------------------------------------------
+2017-10-18 23:07:34.629848 WARNING Unexpected error during DASH creation
+2017-10-18 23:07:34.629933 WARNING ------------------------------------------------------------
+2017-10-18 23:07:34.630238 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 788, in get_dashboard
+    dash = self._conditional_compile(name, skin, recompile)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 731, in _conditional_compile
+    dash = self._get_dash(name, skin, skindir)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 534, in _get_dash
+    dash = self._create_dash(name, css_vars)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 422, in _create_dash
+    dash, layout, occupied, includes = self._create_sub_dash(name, "dash", 0, {}, [], 1, css_vars, None)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 453, in _create_sub_dash
+    dash_params = yaml.load(defs)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/__init__.py", line 72, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 37, in get_single_data
+    return self.construct_document(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 46, in construct_document
+    for dummy in generator:
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 398, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 204, in construct_mapping
+    return super().construct_mapping(node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 129, in construct_mapping
+    value = self.construct_object(value_node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 86, in construct_object
+    data = constructor(self, node)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/utils.py", line 107, in _secret_yaml
+    raise ValueError("!secret used but no secrets file found")
+ValueError: !secret used but no secrets file found
+
+2017-10-18 23:07:34.630332 WARNING ------------------------------------------------------------
+2017-10-18 23:07:34.630562 INFO function [get_dashboard] finished in 85 ms
+2017-10-18 23:07:34.654233 INFO Dashboard disconnected
+2017-10-18 23:07:43.387168 INFO Compiling dashboard 'main'
+2017-10-18 23:07:43.467501 WARNING ------------------------------------------------------------
+2017-10-18 23:07:43.467695 WARNING Unexpected error during DASH creation
+2017-10-18 23:07:43.467782 WARNING ------------------------------------------------------------
+2017-10-18 23:07:43.468084 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 788, in get_dashboard
+    dash = self._conditional_compile(name, skin, recompile)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 731, in _conditional_compile
+    dash = self._get_dash(name, skin, skindir)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 534, in _get_dash
+    dash = self._create_dash(name, css_vars)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 422, in _create_dash
+    dash, layout, occupied, includes = self._create_sub_dash(name, "dash", 0, {}, [], 1, css_vars, None)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 453, in _create_sub_dash
+    dash_params = yaml.load(defs)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/__init__.py", line 72, in load
+    return loader.get_single_data()
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 37, in get_single_data
+    return self.construct_document(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 46, in construct_document
+    for dummy in generator:
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 398, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 204, in construct_mapping
+    return super().construct_mapping(node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 129, in construct_mapping
+    value = self.construct_object(value_node, deep=deep)
+  File "/usr/local/lib/python3.5/dist-packages/yaml/constructor.py", line 86, in construct_object
+    data = constructor(self, node)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/utils.py", line 107, in _secret_yaml
+    raise ValueError("!secret used but no secrets file found")
+ValueError: !secret used but no secrets file found
+
+2017-10-18 23:07:43.468197 WARNING ------------------------------------------------------------
+2017-10-18 23:07:43.468462 INFO function [get_dashboard] finished in 83 ms
+2017-10-18 23:07:59.844050 INFO Compiling dashboard 'main'
+2017-10-18 23:08:00.067553 INFO function [get_dashboard] finished in 225 ms
+2017-10-18 23:08:01.024401 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:02.854647 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 23:08:02.891842 INFO Dashboard disconnected
+2017-10-18 23:08:03.267611 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:03.948885 INFO Compiling dashboard 'main'
+2017-10-18 23:08:04.179704 INFO function [get_dashboard] finished in 233 ms
+2017-10-18 23:08:04.584178 INFO Dashboard disconnected
+2017-10-18 23:08:05.042528 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:06.604822 INFO Compiling dashboard 'main'
+2017-10-18 23:08:06.834703 INFO function [get_dashboard] finished in 232 ms
+2017-10-18 23:08:06.856950 INFO Dashboard disconnected
+2017-10-18 23:08:07.304447 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:08.117556 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 23:08:08.146922 INFO Dashboard disconnected
+2017-10-18 23:08:08.517287 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:21.321523 INFO function [get_dashboard] finished in 19 ms
+2017-10-18 23:08:21.341924 INFO Dashboard disconnected
+2017-10-18 23:08:22.016490 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:24.161961 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 23:08:24.227692 INFO Dashboard disconnected
+2017-10-18 23:08:24.577003 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:43.969271 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 23:08:46.865579 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:50.191698 INFO Compiling dashboard 'main'
+2017-10-18 23:08:50.423178 INFO function [get_dashboard] finished in 234 ms
+2017-10-18 23:08:50.515694 INFO Dashboard disconnected
+2017-10-18 23:08:52.185066 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:54.095909 INFO function [get_dashboard] finished in 21 ms
+2017-10-18 23:08:54.239057 INFO Dashboard disconnected
+2017-10-18 23:08:55.519093 INFO New dashboard connected: Main Panel
+2017-10-18 23:08:57.087578 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 23:08:57.129339 INFO Dashboard disconnected
+2017-10-18 23:08:59.521571 INFO New dashboard connected: Main Panel
+2017-10-18 23:09:05.447444 INFO Compiling dashboard 'main'
+2017-10-18 23:09:05.676021 INFO function [get_dashboard] finished in 230 ms
+2017-10-18 23:09:05.702887 INFO Dashboard disconnected
+2017-10-18 23:09:07.090674 INFO New dashboard connected: Main Panel
+2017-10-18 23:09:11.729119 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 23:09:11.765151 INFO Dashboard disconnected
+2017-10-18 23:09:12.872003 INFO New dashboard connected: Main Panel
+2017-10-18 23:09:52.098524 INFO Compiling dashboard 'main'
+2017-10-18 23:09:52.284201 INFO function [get_dashboard] finished in 188 ms
+2017-10-18 23:09:52.301184 INFO Dashboard disconnected
+2017-10-18 23:09:52.806593 INFO New dashboard connected: Main Panel
+2017-10-18 23:10:53.007636 INFO Compiling dashboard 'main'
+2017-10-18 23:10:53.202496 INFO function [get_dashboard] finished in 197 ms
+2017-10-18 23:10:53.222364 INFO Dashboard disconnected
+2017-10-18 23:10:54.084517 INFO New dashboard connected: Main Panel
+2017-10-18 23:10:54.881701 INFO Dashboard disconnected
+2017-10-18 23:11:30.657081 INFO Compiling dashboard 'main'
+2017-10-18 23:11:30.849313 INFO function [get_dashboard] finished in 194 ms
+2017-10-18 23:11:30.867094 INFO Dashboard disconnected
+2017-10-18 23:11:31.714324 INFO New dashboard connected: Main Panel
+2017-10-18 23:11:33.653133 INFO function [get_dashboard] finished in 20 ms
+2017-10-18 23:11:33.670241 INFO Dashboard disconnected
+2017-10-18 23:11:34.015717 INFO New dashboard connected: Main Panel
+2017-10-18 23:11:34.693594 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 23:11:34.722216 INFO Dashboard disconnected
+2017-10-18 23:11:35.042451 INFO New dashboard connected: Main Panel
+2017-10-18 23:11:35.379000 INFO function [get_dashboard] finished in 18 ms
+2017-10-18 23:11:35.422578 INFO Dashboard disconnected
+2017-10-18 23:11:35.730444 INFO New dashboard connected: Main Panel
+2017-10-18 23:11:36.078721 INFO function [get_dashboard] finished in 17 ms
+2017-10-18 23:11:36.113196 INFO Dashboard disconnected
+2017-10-18 23:11:36.505947 INFO New dashboard connected: Main Panel
+2017-10-18 23:15:05.254836 INFO Compiling dashboard 'main'
+2017-10-18 23:15:05.448622 INFO function [get_dashboard] finished in 196 ms
+2017-10-18 23:15:05.472881 INFO Dashboard disconnected
+2017-10-18 23:15:06.368360 INFO New dashboard connected: Main Panel
+2017-10-18 23:16:30.765886 INFO Compiling dashboard 'main'
+2017-10-18 23:16:30.871759 WARNING Unable to find widget definition for 'cat_frame'
+2017-10-18 23:16:30.970460 INFO function [get_dashboard] finished in 207 ms
+2017-10-18 23:16:31.188651 INFO Dashboard disconnected
+2017-10-18 23:16:32.204673 INFO New dashboard connected: Main Panel
+2017-10-18 23:17:23.810674 INFO Compiling dashboard 'main'
+2017-10-18 23:17:23.915111 WARNING Unable to find widget definition for 'cat_frame'
+2017-10-18 23:17:23.919892 WARNING Unable to find widget definition for 'testlight'
+2017-10-18 23:17:23.997983 INFO function [get_dashboard] finished in 189 ms
+2017-10-18 23:17:24.020325 INFO Dashboard disconnected
+2017-10-18 23:17:24.780413 INFO New dashboard connected: Main Panel
+2017-10-18 23:17:36.775080 INFO Compiling dashboard 'main'
+2017-10-18 23:17:36.882909 WARNING Unable to find widget definition for 'cat_frame'
+2017-10-18 23:17:36.977964 INFO function [get_dashboard] finished in 205 ms
+2017-10-18 23:17:36.994989 INFO Dashboard disconnected
+2017-10-18 23:17:37.579361 INFO New dashboard connected: Main Panel
+2017-10-18 23:17:57.659426 INFO Compiling dashboard 'main'
+2017-10-18 23:17:57.860911 INFO function [get_dashboard] finished in 203 ms
+2017-10-18 23:17:57.991118 INFO Dashboard disconnected
+2017-10-18 23:17:58.814825 INFO New dashboard connected: Main Panel
+2017-10-18 23:19:31.313501 INFO Compiling dashboard 'main'
+2017-10-18 23:19:31.422115 WARNING Unable to find widget definition for 'testlight2'
+2017-10-18 23:19:31.504666 INFO function [get_dashboard] finished in 193 ms
+2017-10-18 23:19:31.583918 INFO Dashboard disconnected
+2017-10-18 23:19:32.415891 INFO New dashboard connected: Main Panel
+2017-10-18 23:19:48.004596 INFO Compiling dashboard 'main'
+2017-10-18 23:19:48.204436 INFO function [get_dashboard] finished in 203 ms
+2017-10-18 23:19:48.218775 INFO Dashboard disconnected
+2017-10-18 23:19:49.126254 INFO New dashboard connected: Main Panel
+2017-10-18 23:20:03.240717 INFO Compiling dashboard 'main'
+2017-10-18 23:20:03.446940 INFO function [get_dashboard] finished in 208 ms
+2017-10-18 23:20:03.602923 INFO Dashboard disconnected
+2017-10-18 23:20:05.404138 INFO New dashboard connected: Main Panel
+2017-10-18 23:20:24.705283 INFO Compiling dashboard 'main'
+2017-10-18 23:20:24.908800 INFO function [get_dashboard] finished in 206 ms
+2017-10-18 23:20:24.933948 INFO Dashboard disconnected
+2017-10-18 23:20:25.873852 INFO New dashboard connected: Main Panel
+2017-10-18 23:20:28.793820 INFO function [get_dashboard] finished in 17 ms
+2017-10-18 23:20:28.811146 INFO Dashboard disconnected
+2017-10-18 23:20:30.144911 INFO New dashboard connected: Main Panel
+2017-10-18 23:21:01.008997 INFO Compiling dashboard 'main'
+2017-10-18 23:21:01.209960 INFO function [get_dashboard] finished in 203 ms
+2017-10-18 23:21:01.226201 INFO Dashboard disconnected
+2017-10-18 23:21:02.088214 INFO New dashboard connected: Main Panel
+2017-10-18 23:21:06.202057 INFO function [get_dashboard] finished in 17 ms
+2017-10-18 23:21:06.220455 INFO Dashboard disconnected
+2017-10-18 23:21:06.577128 INFO New dashboard connected: Main Panel
+2017-10-18 23:41:41.776983 INFO Dashboard disconnected
+2017-10-19 06:53:30.353919 INFO Dashboard disconnected
+2017-10-19 06:55:13.907460 INFO New dashboard connected: Main Panel
+2017-10-19 06:55:21.739474 INFO Dashboard disconnected
+2017-10-19 06:59:54.737099 INFO New dashboard connected: Main Panel
+2017-10-19 07:09:52.420787 INFO Dashboard disconnected
+2017-10-19 07:10:19.992254 INFO New dashboard connected: Main Panel
+2017-10-19 08:28:51.088222 INFO Dashboard disconnected
+2017-10-19 17:18:15.568738 INFO Dashboard disconnected
+2017-10-19 19:49:59.051516 WARNING Unexpected error refreshing HA state - retrying in 10 minutes
+2017-10-19 19:50:00.005191 WARNING Unexpected error refreshing HA state - retrying in 10 minutes
+2017-10-19 19:50:01.007768 WARNING Unexpected error refreshing HA state - retrying in 10 minutes
+2017-10-19 19:50:02.005025 WARNING Unexpected error refreshing HA state - retrying in 10 minutes
+2017-10-19 19:50:03.024184 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 19:50:08.060484 INFO Got initial state
+2017-10-19 19:50:08.060787 INFO App initialization complete
+2017-10-19 19:50:08.189385 INFO Connected to Home Assistant 0.55.0
+2017-10-19 19:53:58.696185 INFO New dashboard connected: Main Panel
+2017-10-19 19:55:53.290709 INFO function [get_dashboard] finished in 57 ms
+2017-10-19 19:55:53.390192 INFO Dashboard disconnected
+2017-10-19 19:55:54.474649 INFO New dashboard connected: Main Panel
+2017-10-19 19:56:11.766171 INFO function [get_dashboard] finished in 21 ms
+2017-10-19 19:56:11.839718 INFO Dashboard disconnected
+2017-10-19 19:56:13.980647 INFO New dashboard connected: Main Panel
+2017-10-19 20:05:28.399738 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:05:33.434891 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:05:38.463996 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:05:43.498192 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:05:48.536877 INFO Got initial state
+2017-10-19 20:05:48.537172 INFO App initialization complete
+2017-10-19 20:05:48.561830 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:07:30.715409 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:07:35.750658 INFO Got initial state
+2017-10-19 20:07:35.750963 INFO App initialization complete
+2017-10-19 20:07:35.777510 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:07:36.229268 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:07:41.257893 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:07:46.321817 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:07:51.376665 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:07:56.408997 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:08:01.445520 INFO Got initial state
+2017-10-19 20:08:01.445813 INFO App initialization complete
+2017-10-19 20:08:01.473142 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:10:25.763996 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:10:30.797193 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:10:35.830769 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:10:40.911536 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:10:45.941432 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:10:50.987352 INFO Got initial state
+2017-10-19 20:10:50.987634 INFO App initialization complete
+2017-10-19 20:10:51.010785 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:12:26.652616 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:12:31.692907 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:12:36.763033 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:12:41.798125 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:12:46.854789 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:12:51.890253 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:12:57.101444 INFO Got initial state
+2017-10-19 20:12:57.101735 INFO App initialization complete
+2017-10-19 20:12:57.124909 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:15:30.263810 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:15:35.305930 INFO Got initial state
+2017-10-19 20:15:35.306198 INFO App initialization complete
+2017-10-19 20:15:35.329689 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:20:30.263132 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:20:35.301896 INFO Got initial state
+2017-10-19 20:20:35.302165 INFO App initialization complete
+2017-10-19 20:20:35.325313 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:20:45.125571 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:20:50.159076 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:20:55.191726 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:21:00.253982 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:21:05.287573 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:21:10.323676 INFO Got initial state
+2017-10-19 20:21:10.323946 INFO App initialization complete
+2017-10-19 20:21:10.347068 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:22:30.661711 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:22:35.699125 INFO Got initial state
+2017-10-19 20:22:35.699415 INFO App initialization complete
+2017-10-19 20:22:35.723120 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:24:30.663473 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:24:35.700919 INFO Got initial state
+2017-10-19 20:24:35.701203 INFO App initialization complete
+2017-10-19 20:24:35.735004 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:27:10.792835 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:27:15.821703 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:27:20.857292 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:27:25.891781 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:27:30.923221 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:27:35.963454 INFO Got initial state
+2017-10-19 20:27:35.963921 INFO App initialization complete
+2017-10-19 20:27:36.010525 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:30:30.452563 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:30:35.490074 INFO Got initial state
+2017-10-19 20:30:35.490350 INFO App initialization complete
+2017-10-19 20:30:35.516498 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:36:30.448413 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:36:35.514917 INFO Got initial state
+2017-10-19 20:36:35.515229 INFO App initialization complete
+2017-10-19 20:36:35.541631 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:39:30.451031 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:39:35.491648 INFO Got initial state
+2017-10-19 20:39:35.491919 INFO App initialization complete
+2017-10-19 20:39:35.516051 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:44:30.448017 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:44:35.484327 INFO Got initial state
+2017-10-19 20:44:35.484602 INFO App initialization complete
+2017-10-19 20:44:35.507852 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:48:30.449094 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:48:35.488416 INFO Got initial state
+2017-10-19 20:48:35.488785 INFO App initialization complete
+2017-10-19 20:48:35.512375 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:51:30.449249 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:51:35.492274 INFO Got initial state
+2017-10-19 20:51:35.492564 INFO App initialization complete
+2017-10-19 20:51:35.525616 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:53:30.449124 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:53:35.487572 INFO Got initial state
+2017-10-19 20:53:35.487894 INFO App initialization complete
+2017-10-19 20:53:35.512577 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:55:32.065865 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:55:37.099918 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:55:42.134873 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:55:47.204685 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:55:52.237451 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:55:57.278359 INFO Got initial state
+2017-10-19 20:55:57.278646 INFO App initialization complete
+2017-10-19 20:55:57.312622 INFO Connected to Home Assistant 0.55.0
+2017-10-19 20:58:30.781592 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:58:35.814400 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:58:40.855948 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:58:45.885687 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:58:50.919332 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 20:58:55.956689 INFO Got initial state
+2017-10-19 20:58:55.956966 INFO App initialization complete
+2017-10-19 20:58:55.980347 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:01:00.138618 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:01:05.169005 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:01:10.197970 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:01:15.246192 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:01:20.276789 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:01:25.315357 INFO Got initial state
+2017-10-19 21:01:25.315691 INFO App initialization complete
+2017-10-19 21:01:25.339253 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:03:30.113572 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:03:35.149155 INFO Got initial state
+2017-10-19 21:03:35.149438 INFO App initialization complete
+2017-10-19 21:03:35.197781 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:07:30.115517 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:07:35.172229 INFO Got initial state
+2017-10-19 21:07:35.172525 INFO App initialization complete
+2017-10-19 21:07:35.212915 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:09:30.114792 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:09:35.235580 INFO Got initial state
+2017-10-19 21:09:35.235984 INFO App initialization complete
+2017-10-19 21:09:35.266638 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:12:30.114468 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:12:35.152653 INFO Got initial state
+2017-10-19 21:12:35.152959 INFO App initialization complete
+2017-10-19 21:12:35.176299 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:15:30.115021 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:15:35.151991 INFO Got initial state
+2017-10-19 21:15:35.152291 INFO App initialization complete
+2017-10-19 21:15:35.176093 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:17:30.114679 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:17:35.154191 INFO Got initial state
+2017-10-19 21:17:35.154486 INFO App initialization complete
+2017-10-19 21:17:35.208211 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:22:30.115193 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:22:35.153422 INFO Got initial state
+2017-10-19 21:22:35.153714 INFO App initialization complete
+2017-10-19 21:22:35.178735 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:25:30.115473 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:25:35.152273 INFO Got initial state
+2017-10-19 21:25:35.152568 INFO App initialization complete
+2017-10-19 21:25:35.175777 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:28:30.115343 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:28:35.812493 INFO Got initial state
+2017-10-19 21:28:35.812769 INFO App initialization complete
+2017-10-19 21:28:35.836492 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:33:30.114153 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:33:35.157201 INFO Got initial state
+2017-10-19 21:33:35.157514 INFO App initialization complete
+2017-10-19 21:33:35.182837 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:38:30.115414 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:38:35.151780 INFO Got initial state
+2017-10-19 21:38:35.152079 INFO App initialization complete
+2017-10-19 21:38:35.175329 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:43:30.115057 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:43:35.151531 INFO Got initial state
+2017-10-19 21:43:35.151856 INFO App initialization complete
+2017-10-19 21:43:35.175252 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:45:30.113925 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:45:35.177929 INFO Got initial state
+2017-10-19 21:45:35.178284 INFO App initialization complete
+2017-10-19 21:45:35.201891 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:49:30.114460 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:49:35.153178 INFO Got initial state
+2017-10-19 21:49:35.153489 INFO App initialization complete
+2017-10-19 21:49:35.179118 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:52:30.114894 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:52:35.151311 INFO Got initial state
+2017-10-19 21:52:35.151634 INFO App initialization complete
+2017-10-19 21:52:35.206021 INFO Connected to Home Assistant 0.55.0
+2017-10-19 21:54:30.114543 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 21:54:35.152084 INFO Got initial state
+2017-10-19 21:54:35.152382 INFO App initialization complete
+2017-10-19 21:54:35.200476 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:02:30.115704 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:02:35.172138 INFO Got initial state
+2017-10-19 22:02:35.172430 INFO App initialization complete
+2017-10-19 22:02:35.207019 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:04:30.115280 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:04:35.151499 INFO Got initial state
+2017-10-19 22:04:35.151836 INFO App initialization complete
+2017-10-19 22:04:35.175050 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:08:30.114402 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:08:35.151984 INFO Got initial state
+2017-10-19 22:08:35.152306 INFO App initialization complete
+2017-10-19 22:08:35.176306 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:10:30.114446 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:10:35.153846 INFO Got initial state
+2017-10-19 22:10:35.154139 INFO App initialization complete
+2017-10-19 22:10:35.177438 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:12:30.113370 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:12:35.150632 INFO Got initial state
+2017-10-19 22:12:35.150919 INFO App initialization complete
+2017-10-19 22:12:35.193447 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:15:30.114983 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:15:35.156020 INFO Got initial state
+2017-10-19 22:15:35.156325 INFO App initialization complete
+2017-10-19 22:15:35.179564 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:17:30.116504 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:17:35.174236 INFO Got initial state
+2017-10-19 22:17:35.174582 INFO App initialization complete
+2017-10-19 22:17:35.243002 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:19:30.114426 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:19:35.153165 INFO Got initial state
+2017-10-19 22:19:35.153458 INFO App initialization complete
+2017-10-19 22:19:35.198808 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:20:25.945050 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:20:30.976695 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:20:36.007009 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:20:41.044342 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:20:46.077533 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:20:51.118148 INFO Got initial state
+2017-10-19 22:20:51.118475 INFO App initialization complete
+2017-10-19 22:20:51.145330 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:22:30.770485 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:22:35.810153 INFO Got initial state
+2017-10-19 22:22:35.810427 INFO App initialization complete
+2017-10-19 22:22:35.833829 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:24:57.660425 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:25:02.691273 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:25:07.723790 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:25:12.794759 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:25:17.825677 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:25:22.867327 INFO Got initial state
+2017-10-19 22:25:22.867628 INFO App initialization complete
+2017-10-19 22:25:22.912800 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:28:22.006219 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:28:27.037037 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:28:32.068456 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:28:37.110039 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:28:42.149155 INFO Got initial state
+2017-10-19 22:28:42.149490 INFO App initialization complete
+2017-10-19 22:28:42.172667 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:32:30.033495 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:32:35.091280 INFO Got initial state
+2017-10-19 22:32:35.091598 INFO App initialization complete
+2017-10-19 22:32:35.134463 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:35:39.901463 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:35:44.931622 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:35:49.962023 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:35:54.995439 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:36:00.025903 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:36:05.063986 INFO Got initial state
+2017-10-19 22:36:05.064272 INFO App initialization complete
+2017-10-19 22:36:05.096173 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:38:30.654226 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:38:35.693774 INFO Got initial state
+2017-10-19 22:38:35.694076 INFO App initialization complete
+2017-10-19 22:38:35.719179 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:39:48.149724 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:39:53.179334 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:39:58.212293 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:40:03.262821 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:40:08.295972 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:40:13.335016 INFO Got initial state
+2017-10-19 22:40:13.335362 INFO App initialization complete
+2017-10-19 22:40:13.358741 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:40:40.025269 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:40:45.068466 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:40:50.102952 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:40:55.131661 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:41:00.164259 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:41:05.199264 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:41:10.237616 INFO Got initial state
+2017-10-19 22:41:10.237884 INFO App initialization complete
+2017-10-19 22:41:10.261226 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:42:30.979927 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:42:36.017834 INFO Got initial state
+2017-10-19 22:42:36.018122 INFO App initialization complete
+2017-10-19 22:42:36.058859 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:44:20.346057 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:44:25.382295 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:44:30.414219 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:44:35.453310 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:44:40.484714 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:44:45.521825 INFO Got initial state
+2017-10-19 22:44:45.522128 INFO App initialization complete
+2017-10-19 22:44:45.548531 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:46:30.154116 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:46:35.220162 INFO Got initial state
+2017-10-19 22:46:35.220498 INFO App initialization complete
+2017-10-19 22:46:35.244125 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:48:30.153216 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:48:35.200412 INFO Got initial state
+2017-10-19 22:48:35.200708 INFO App initialization complete
+2017-10-19 22:48:35.223971 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:51:30.154815 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:51:35.195290 INFO Got initial state
+2017-10-19 22:51:35.195616 INFO App initialization complete
+2017-10-19 22:51:35.220962 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:54:30.154436 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:54:35.191402 INFO Got initial state
+2017-10-19 22:54:35.191728 INFO App initialization complete
+2017-10-19 22:54:35.214944 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:56:30.154667 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:56:35.200659 INFO Got initial state
+2017-10-19 22:56:35.219749 INFO App initialization complete
+2017-10-19 22:56:35.243811 INFO Connected to Home Assistant 0.55.0
+2017-10-19 22:59:30.153839 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 22:59:35.193649 INFO Got initial state
+2017-10-19 22:59:35.193952 INFO App initialization complete
+2017-10-19 22:59:35.217594 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:01:30.156504 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:01:35.196031 INFO Got initial state
+2017-10-19 23:01:35.196333 INFO App initialization complete
+2017-10-19 23:01:35.219561 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:04:30.155850 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:04:35.201263 INFO Got initial state
+2017-10-19 23:04:35.201604 INFO App initialization complete
+2017-10-19 23:04:35.225636 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:06:30.155311 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:06:35.191842 INFO Got initial state
+2017-10-19 23:06:35.192146 INFO App initialization complete
+2017-10-19 23:06:35.215734 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:08:30.154277 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:08:35.193129 INFO Got initial state
+2017-10-19 23:08:35.193442 INFO App initialization complete
+2017-10-19 23:08:35.219090 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:10:30.869800 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:10:35.900676 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:10:40.932535 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:10:45.966654 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:10:50.999453 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:10:56.052688 INFO Got initial state
+2017-10-19 23:10:56.053055 INFO App initialization complete
+2017-10-19 23:10:56.076553 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:12:30.888864 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:12:35.944006 INFO Got initial state
+2017-10-19 23:12:35.944304 INFO App initialization complete
+2017-10-19 23:12:35.967760 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:19:30.887916 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:19:35.927422 INFO Got initial state
+2017-10-19 23:19:35.927760 INFO App initialization complete
+2017-10-19 23:19:35.952825 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:20:07.129316 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:12.160600 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:17.191628 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:22.244339 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:27.274196 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:32.301187 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:37.335615 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:42.365329 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:47.396507 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:52.430433 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:20:57.660739 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:02.691469 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:07.722520 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:12.750919 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:17.787375 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:22.823289 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:27.853161 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:32.889936 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:37.925279 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:42.956122 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:47.985916 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:53.024064 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:21:58.053345 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:03.083762 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:08.425213 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:13.457878 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:18.494664 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:23.529181 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:28.558800 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:33.589426 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:38.630418 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:43.657658 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:48.688512 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:53.724646 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:22:58.756202 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:23:03.793138 INFO Got initial state
+2017-10-19 23:23:03.793426 INFO App initialization complete
+2017-10-19 23:23:03.837179 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:24:30.971964 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:24:36.010270 INFO Got initial state
+2017-10-19 23:24:36.010556 INFO App initialization complete
+2017-10-19 23:24:36.035127 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:26:30.971197 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:26:36.017954 INFO Got initial state
+2017-10-19 23:26:36.018244 INFO App initialization complete
+2017-10-19 23:26:36.051652 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:29:44.357000 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:29:49.388151 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:29:54.420535 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:29:59.457941 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:30:04.488775 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:30:09.527150 INFO Got initial state
+2017-10-19 23:30:09.527442 INFO App initialization complete
+2017-10-19 23:30:09.580385 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:31:30.097541 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:31:35.134753 INFO Got initial state
+2017-10-19 23:31:35.135039 INFO App initialization complete
+2017-10-19 23:31:35.182365 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:36:30.365722 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:36:35.410884 INFO Got initial state
+2017-10-19 23:36:35.411177 INFO App initialization complete
+2017-10-19 23:36:35.462153 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:36:46.697645 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:36:51.728441 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:36:56.760125 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:37:01.810118 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:37:06.845114 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:37:11.883550 INFO Got initial state
+2017-10-19 23:37:11.883878 INFO App initialization complete
+2017-10-19 23:37:11.907078 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:38:22.859378 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:38:27.895951 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:38:32.929894 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:38:37.961267 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:38:42.993344 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:38:48.029303 INFO Got initial state
+2017-10-19 23:38:48.029596 INFO App initialization complete
+2017-10-19 23:38:48.067865 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:40:35.946158 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:40:40.977693 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:40:46.008384 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:40:51.086275 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:40:56.117717 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:41:01.155891 INFO Got initial state
+2017-10-19 23:41:01.156208 INFO App initialization complete
+2017-10-19 23:41:01.179632 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:43:04.308071 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:43:09.337253 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:43:14.383464 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:43:19.459579 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:43:24.496211 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:43:29.534346 INFO Got initial state
+2017-10-19 23:43:29.534621 INFO App initialization complete
+2017-10-19 23:43:29.557774 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:44:04.718495 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:44:09.749514 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:44:14.780132 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:44:19.843509 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:44:24.879201 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:44:29.918296 INFO Got initial state
+2017-10-19 23:44:29.918576 INFO App initialization complete
+2017-10-19 23:44:29.941898 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:44:53.939787 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:44:58.969906 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:45:04.005367 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:45:09.081899 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:45:14.110933 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:45:19.174317 INFO Got initial state
+2017-10-19 23:45:19.174684 INFO App initialization complete
+2017-10-19 23:45:19.200880 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:52:30.506584 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:52:35.551911 INFO Got initial state
+2017-10-19 23:52:35.552235 INFO App initialization complete
+2017-10-19 23:52:35.578644 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:53:47.202222 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:53:52.233571 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:53:57.268221 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:54:02.303676 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:54:07.336970 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:54:12.377321 INFO Got initial state
+2017-10-19 23:54:12.377625 INFO App initialization complete
+2017-10-19 23:54:12.405644 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:55:20.844090 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:55:25.872796 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:55:30.909300 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:55:35.958887 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:55:40.992080 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:55:46.034992 INFO Got initial state
+2017-10-19 23:55:46.035300 INFO App initialization complete
+2017-10-19 23:55:46.058568 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:56:30.876384 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:56:35.912404 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:56:40.946607 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:56:45.984927 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:56:51.016400 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:56:56.055758 INFO Got initial state
+2017-10-19 23:56:56.056069 INFO App initialization complete
+2017-10-19 23:56:56.079281 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:59:30.119002 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:59:35.158011 INFO Got initial state
+2017-10-19 23:59:35.158299 INFO App initialization complete
+2017-10-19 23:59:35.194183 INFO Connected to Home Assistant 0.55.0
+2017-10-19 23:59:53.634786 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-19 23:59:58.664740 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:00:03.693821 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:00:08.746893 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:00:13.776365 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:00:18.813561 INFO Got initial state
+2017-10-20 00:00:18.813850 INFO App initialization complete
+2017-10-20 00:00:18.838260 INFO Connected to Home Assistant 0.55.0
+2017-10-20 00:01:53.800543 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:01:58.838977 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:02:03.871803 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:02:08.905709 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:02:13.937332 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:02:18.975698 INFO Got initial state
+2017-10-20 00:02:18.976003 INFO App initialization complete
+2017-10-20 00:02:19.000182 INFO Connected to Home Assistant 0.55.0
+2017-10-20 00:09:30.012475 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:09:35.053260 INFO Got initial state
+2017-10-20 00:09:35.053575 INFO App initialization complete
+2017-10-20 00:09:35.081142 INFO Connected to Home Assistant 0.55.0
+2017-10-20 00:24:30.015174 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:24:35.053838 INFO Got initial state
+2017-10-20 00:24:35.054137 INFO App initialization complete
+2017-10-20 00:24:35.079235 INFO Connected to Home Assistant 0.55.0
+2017-10-20 00:26:30.012251 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:26:35.046945 INFO Got initial state
+2017-10-20 00:26:35.047237 INFO App initialization complete
+2017-10-20 00:26:35.070593 INFO Connected to Home Assistant 0.55.0
+2017-10-20 00:29:30.012154 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:29:35.053407 INFO Got initial state
+2017-10-20 00:29:35.053710 INFO App initialization complete
+2017-10-20 00:29:35.084783 INFO Connected to Home Assistant 0.55.0
+2017-10-20 00:50:30.012785 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:50:35.052571 INFO Got initial state
+2017-10-20 00:50:35.053172 INFO App initialization complete
+2017-10-20 00:50:35.081183 INFO Connected to Home Assistant 0.55.0
+2017-10-20 00:51:10.696877 INFO function [get_dashboard] finished in 18 ms
+2017-10-20 00:51:10.715634 INFO Dashboard disconnected
+2017-10-20 00:51:11.524573 INFO New dashboard connected: Main Panel
+2017-10-20 00:51:14.690058 INFO function [get_dashboard] finished in 23 ms
+2017-10-20 00:51:14.706185 INFO Dashboard disconnected
+2017-10-20 00:51:15.368437 INFO New dashboard connected: Main Panel
+2017-10-20 00:55:30.012937 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 00:55:35.051498 INFO Got initial state
+2017-10-20 00:55:35.051846 INFO App initialization complete
+2017-10-20 00:55:35.082638 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:00:30.012510 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:00:35.051977 INFO Got initial state
+2017-10-20 01:00:35.052267 INFO App initialization complete
+2017-10-20 01:00:35.075780 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:08:30.012936 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:08:35.054680 INFO Got initial state
+2017-10-20 01:08:35.054977 INFO App initialization complete
+2017-10-20 01:08:35.081011 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:20:30.012592 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:20:35.051065 INFO Got initial state
+2017-10-20 01:20:35.051364 INFO App initialization complete
+2017-10-20 01:20:35.074790 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:23:30.013674 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:23:35.051249 INFO Got initial state
+2017-10-20 01:23:35.051551 INFO App initialization complete
+2017-10-20 01:23:35.075041 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:25:30.012965 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:25:35.053816 INFO Got initial state
+2017-10-20 01:25:35.054119 INFO App initialization complete
+2017-10-20 01:25:35.077926 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:28:30.014588 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:28:35.053468 INFO Got initial state
+2017-10-20 01:28:35.053768 INFO App initialization complete
+2017-10-20 01:28:35.077142 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:37:09.136566 INFO Dashboard disconnected
+2017-10-20 01:39:30.013977 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:39:35.076892 INFO Got initial state
+2017-10-20 01:39:35.077183 INFO App initialization complete
+2017-10-20 01:39:35.101511 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:44:30.013137 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:44:35.049143 INFO Got initial state
+2017-10-20 01:44:35.049441 INFO App initialization complete
+2017-10-20 01:44:35.072696 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:49:30.016080 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:49:35.070393 INFO Got initial state
+2017-10-20 01:49:35.070796 INFO App initialization complete
+2017-10-20 01:49:35.094409 INFO Connected to Home Assistant 0.55.0
+2017-10-20 01:55:30.013662 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 01:55:35.051440 INFO Got initial state
+2017-10-20 01:55:35.051794 INFO App initialization complete
+2017-10-20 01:55:35.078891 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:00:30.012804 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:00:35.052144 INFO Got initial state
+2017-10-20 02:00:35.052435 INFO App initialization complete
+2017-10-20 02:00:35.088249 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:05:30.012885 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:05:35.057601 INFO Got initial state
+2017-10-20 02:05:35.057899 INFO App initialization complete
+2017-10-20 02:05:35.113291 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:09:30.013948 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:09:35.053152 INFO Got initial state
+2017-10-20 02:09:35.053465 INFO App initialization complete
+2017-10-20 02:09:35.078043 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:12:30.017548 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:12:35.056412 INFO Got initial state
+2017-10-20 02:12:35.056711 INFO App initialization complete
+2017-10-20 02:12:35.082924 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:15:30.012296 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:15:35.049775 INFO Got initial state
+2017-10-20 02:15:35.050080 INFO App initialization complete
+2017-10-20 02:15:35.073313 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:17:30.012491 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:17:35.071322 INFO Got initial state
+2017-10-20 02:17:35.071645 INFO App initialization complete
+2017-10-20 02:17:35.116959 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:19:30.012794 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:19:35.054402 INFO Got initial state
+2017-10-20 02:19:35.054697 INFO App initialization complete
+2017-10-20 02:19:35.078012 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:21:30.015341 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:21:35.072611 INFO Got initial state
+2017-10-20 02:21:35.072997 INFO App initialization complete
+2017-10-20 02:21:35.099619 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:24:30.012741 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:24:35.050958 INFO Got initial state
+2017-10-20 02:24:35.051256 INFO App initialization complete
+2017-10-20 02:24:35.094545 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:27:30.012830 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:27:35.052945 INFO Got initial state
+2017-10-20 02:27:35.053287 INFO App initialization complete
+2017-10-20 02:27:35.077601 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:29:30.012764 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:29:35.052173 INFO Got initial state
+2017-10-20 02:29:35.052496 INFO App initialization complete
+2017-10-20 02:29:35.079241 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:31:30.012765 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:31:35.049189 INFO Got initial state
+2017-10-20 02:31:35.049486 INFO App initialization complete
+2017-10-20 02:31:35.090330 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:34:30.014216 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:34:35.071079 INFO Got initial state
+2017-10-20 02:34:35.071360 INFO App initialization complete
+2017-10-20 02:34:35.096015 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:39:30.012480 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:39:35.052269 INFO Got initial state
+2017-10-20 02:39:35.052697 INFO App initialization complete
+2017-10-20 02:39:35.079117 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:41:30.013205 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:41:35.054928 INFO Got initial state
+2017-10-20 02:41:35.055229 INFO App initialization complete
+2017-10-20 02:41:35.078537 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:44:30.014741 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:44:35.056110 INFO Got initial state
+2017-10-20 02:44:35.056444 INFO App initialization complete
+2017-10-20 02:44:35.082221 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:46:30.013178 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:46:35.071789 INFO Got initial state
+2017-10-20 02:46:35.072135 INFO App initialization complete
+2017-10-20 02:46:35.096695 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:50:30.011770 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:50:35.048671 INFO Got initial state
+2017-10-20 02:50:35.048989 INFO App initialization complete
+2017-10-20 02:50:35.087560 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:52:30.015044 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:52:35.057117 INFO Got initial state
+2017-10-20 02:52:35.057424 INFO App initialization complete
+2017-10-20 02:52:35.080970 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:55:30.014323 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:55:35.053256 INFO Got initial state
+2017-10-20 02:55:35.053568 INFO App initialization complete
+2017-10-20 02:55:35.077659 INFO Connected to Home Assistant 0.55.0
+2017-10-20 02:59:30.012060 WARNING Disconnected from Home Assistant, retrying in 5 seconds
+2017-10-20 02:59:35.051138 INFO Got initial state
+2017-10-20 02:59:35.051742 INFO App initialization complete
+2017-10-20 02:59:35.076344 INFO Connected to Home Assistant 0.55.0

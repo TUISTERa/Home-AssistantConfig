@@ -1,0 +1,11 @@
+media_view: 
+  view: yes
+  icon: mdi:television
+  entities: 
+    - group.media
+
+
+media:
+    - media_player.sonytv
+    - media_player.cast
+    

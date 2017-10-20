@@ -1,0 +1,31 @@
+
+mobile_view: 
+  view: yes
+  icon: mdi:cellphone-iphone
+  entities: 
+    - group.family
+    - group.telephones_battery
+
+family:
+  entities:
+    - device_tracker.georgi_coolpad
+    - device_tracker.plamena_elephone
+#    - group.elephone
+
+#coolpad:
+#  name: Coolpad
+#  entities:
+#    - device_tracker.mosquitto_coolpad
+#    - device_tracker.android2e9d8d7d5fce66b3
+
+#elephone:
+#  name: Elephone
+#  entities:
+#    - device_tracker.android68033848c86d4b1c
+#    - device_tracker.mosquitto_elephone
+
+telephones_battery: 
+  entities:
+    - sensor.battery_georgi_coolpad
+    - sensor.battery_plamena_elephone
+   

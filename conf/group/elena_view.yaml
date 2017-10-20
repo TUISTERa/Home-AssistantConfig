@@ -1,0 +1,8 @@
+elena_view: 
+  view: yes
+  icon: mdi:account-check
+  entities: 
+    - light.kitchen_1
+    # - light.bedroom_2_2  
+
+
