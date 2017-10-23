@@ -1,19 +1,40 @@
-################DUMMY TEMP SENSORS##########################
-- platform: mqtt
-  state_topic: dummy/floorplan/sensors
-  name: temp_hall
-- platform: mqtt
-  state_topic: dummy/floorplan/sensors
-  name: temp_bedroom_1
-- platform: mqtt
-  state_topic: dummy/floorplan/sensors
-  name: temp_bathroom
-- platform: mqtt
-  state_topic: dummy/floorplan/sensors
-  name: temp_bedroom_2
-- platform: mqtt
-  state_topic: dummy/floorplan/sensors
-  name: temp_kitchen
-- platform: mqtt
-  state_topic: dummy/floorplan/sensors
-  name: temp_entrance
+- platform: template
+  sensors:
+    temp_bathroom:
+      friendly_name: "Bathroom temperature"
+      value_template: "{{ states.sensor.external_temp.state | round(0) | float +1 }}"
+
+- platform: template
+  sensors:
+    temp_entrance:
+      friendly_name: "Entrance temperature"
+      value_template: "{{ states.sensor.external_temp.state | round(0) | float -2 }}"
+
+
+
+- platform: template
+  sensors:
+    temp_hall:
+      friendly_name: "Hall temperature"
+      value_template: "{{ states.sensor.external_temp.state | float +1 }}"
+
+
+- platform: template
+  sensors:
+    temp_bedroom_1:
+      friendly_name: "Bedroom 1 temperature"
+      value_template: "{{ states.sensor.external_temp.state | round(0) | float -3 }}"
+
+
+- platform: template
+  sensors:
+    temp_bedroom_2:
+      friendly_name: "Bedroom 2 temperature"
+      value_template: "{{ states.sensor.external_temp.state | float +3 }}"      
+
+
+- platform: template
+  sensors:
+    temp_kitchen:
+      friendly_name: "Kitchen temperature"
+      value_template: "{{ states.sensor.external_temp.state | round(0) | float -1 }}"

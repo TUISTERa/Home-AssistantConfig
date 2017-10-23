@@ -1,4 +1,116 @@
-function baserss(widget_id, url, skin, parameters)
+function baseclock(widget_id, url, skin, parameters)
+{
+    // Will be using "self" throughout for the various flavors of "this"
+    // so for consistency ...
+    
+    self = this
+    
+    // Initialization
+    
+    self.widget_id = widget_id
+    
+    // Parameters may come in useful later on
+    
+    self.parameters = parameters
+    
+    // Define callbacks for on click events
+    // They are defined as functions below and can be any name as long as the
+    // 'self'variables match the callbacks array below
+    // We need to add them into the object for later reference
+   
+    var callbacks = []        
+     
+    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
+    // Initial will be called when the dashboard loads and state has been gathered for the entity
+    // Update will be called every time an update occurs for that entity
+     
+    var monitored_entities = []
+    
+    // Finally, call the parent constructor to get things moving
+    
+    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
+
+    // Function Definitions
+    
+    // The StateAvailable function will be called when 
+    // self.state[<entity>] has valid information for the requested entity
+    // state is the initial state
+    
+	updateTime(self)
+	
+	setInterval(updateTime, 500, self);
+
+	function updateTime(self) 
+	{
+		var today = new Date();
+		h = today.getHours();
+		m = today.getMinutes();
+		s = today.getSeconds();
+		m = formatTime(m);
+		
+        self.set_field(self, "date", today.toLocaleDateString());
+		
+		if ("time_format" in self.parameters && self.parameters.time_format == "24hr")
+		{
+			time = h + ":" + m;
+			pm = ""
+		}
+		else
+		{
+			time = formatHours(h) + ":" + m;
+			pm = " " + formatAmPm(h)
+		}
+		
+		if ("show_seconds" in self.parameters && self.parameters.show_seconds == 1)
+		{
+			time = time + ":" + formatTime(s)
+		}
+		
+		time = time + pm
+		self.set_field(self, "time", time);
+	}
+
+	function formatTime(i)
+	{
+		if (i < 10 )
+		{
+			return "0" + i;
+		}
+		else
+		{
+			return i;
+		}
+	}
+
+	function formatAmPm(h)
+	{
+		if (h >= 12)
+		{
+			return "PM";
+		}
+		else
+		{
+			return "AM";
+		}
+	}
+
+	function formatHours(h)
+	{
+		if (h > 12)
+		{
+			return h - 12;
+		}
+		else if (h == 0)
+		{
+			return 12;
+		}
+		else
+		{
+			return h;
+		}
+	}
+}
+function basedisplay(widget_id, url, skin, parameters)
 {
     // Will be using "self" throughout for the various flavors of "this"
     // so for consistency ...
@@ -23,18 +135,21 @@ function baserss(widget_id, url, skin, parameters)
      
     self.OnStateAvailable = OnStateAvailable
     self.OnStateUpdate = OnStateUpdate
-    
+    self.OnSubStateAvailable = OnSubStateAvailable
+    self.OnSubStateUpdate = OnSubStateUpdate
+
+    var monitored_entities =  []
+
     if ("entity" in parameters)
     {
-        var monitored_entities = 
-            [
-                {"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
-            ]
+        monitored_entities.push({"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate})
     }
-    else
+    if ("sub_entity" in parameters && parameters.sub_entity != "")
     {
-        var monitored_entities =  []
+        monitored_entities.push({"entity": parameters.sub_entity, "initial": self.OnSubStateAvailable, "update": self.OnSubStateUpdate})
     }
+
+
     // Finally, call the parent constructor to get things moving
     
     WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
@@ -56,103 +171,50 @@ function baserss(widget_id, url, skin, parameters)
         set_value(self, state)
     }
 
-    function set_value(self, state)
+    function OnSubStateAvailable(self, state)
     {
-        self.story = 0
-        clearTimeout(self.timer)
-        show_next_story(self)
-        self.timer = setInterval(show_next_story, self.parameters.interval * 1000, self);
+        set_sub_value(self, state)
     }
 
-    function show_next_story(self)
+    function OnSubStateUpdate(self, state)
     {
-        var stories = self.entity_state[parameters.entity].feed.entries;
-        self.set_field(self, "text", stories[self.story].title)
-        self.story = self.story + 1;
-        if ((self.story >= stories.length) || ("recent" in parameters && self.story >= parameters.recent))
+        set_sub_value(self, state)
+    }
+
+    function set_value(self, state)
+    {
+        value = self.map_state(self, state.state)
+        if (isNaN(value))
         {
-            self.story = 0;
+            self.set_field(self, "value_style", self.parameters.css.text_style)
+            self.set_field(self, "value", self.map_state(self, value))
+        }
+        else
+        {
+            self.set_field(self, "value_style", self.parameters.css.value_style)
+            self.set_field(self, "value", self.format_number(self, value))
+            self.set_field(self, "unit_style", self.parameters.css.unit_style)
+            if ("units" in self.parameters)
+            {
+                self.set_field(self, "unit", self.parameters.units)
+            }
+            else
+            {
+                self.set_field(self, "unit", state.attributes["unit_of_measurement"])
+            }
         }
     }
-}
-function basegauge(widget_id, url, skin, parameters)
-{
-    // Will be using "self" throughout for the various flavors of "this"
-    // so for consistency ...
-    
-    self = this
-    
-    // Initialization
-    
-    self.widget_id = widget_id
-    
-    // Store on brightness or fallback to a default
-        
-    // Parameters may come in useful later on
-    
-    self.parameters = parameters
-       
-    var callbacks = []
 
-    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
-    // Initial will be called when the dashboard loads and state has been gathered for the entity
-    // Update will be called every time an update occurs for that entity
-     
-    self.OnStateAvailable = OnStateAvailable
-    self.OnStateUpdate = OnStateUpdate
-    
-    if ("entity" in parameters)
+    function set_sub_value(self, state)
     {
-        var monitored_entities = 
-            [
-                {"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
-            ]
-    }
-    else
-    {
-        var monitored_entities =  []
-    }
-
-    self.gauge = new JustGage({
-    parentNode: $('#' + widget_id + ' > div')[0],
-    //id: "graph",
-    value: 0,
-    nogradient: true,
-    levelColors: [self.parameters.low_color, self.parameters.med_color, self.parameters.high_color],
-    labelFontColor: self.parameters.color,
-    valueFontColor: self.parameters.color,
-    levelColorsGradient: false,
-    gaugeColor: self.parameters.bgcolor,
-    symbol: self.parameters.units,
-    min: self.parameters.min,
-    max: self.parameters.max,
-  });
-
-
-    // Finally, call the parent constructor to get things moving
-    
-    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
-
-    // Function Definitions
-    
-    // The StateAvailable function will be called when 
-    // self.state[<entity>] has valid information for the requested entity
-    // state is the initial state
-    // Methods
-
-    function OnStateAvailable(self, state)
-    {    
-        set_value(self, state)
-    }
- 
-    function OnStateUpdate(self, state)
-    {
-        set_value(self, state)
-    }
-
-    function set_value(self, state)
-    {
-        self.gauge.refresh(state.state)
+        if ("sub_entity_map" in self.parameters)
+        {
+            self.set_field(self, "state_text", self.parameters.sub_entity_map[state.state])
+        }
+        else
+        {
+            self.set_field(self, "state_text", state.state)
+        }
     }
 }
 function basealarm(widget_id, url, skin, parameters)
@@ -332,6 +394,626 @@ function basealarm(widget_id, url, skin, parameters)
     {
         self.set_field(self, "code", self.code)
     }
+}
+function baselight(widget_id, url, skin, parameters)
+{
+    // Will be using "self" throughout for the various flavors of "this"
+    // so for consistency ...
+    
+    self = this
+    
+    // Initialization
+    
+    self.widget_id = widget_id
+    
+    // Parameters may come in useful later on
+    
+    self.parameters = parameters
+    
+    // Parameter handling
+    
+    if ("monitored_entity" in self.parameters)
+    {
+        entity = self.parameters.monitored_entity
+    }
+    else
+    {
+        entity = self.parameters.entity
+    }
+    
+    if ("on_brightness" in self.parameters)
+    {
+        self.on_brightness = self.parameters.on_brightness
+    }
+    else
+    {
+        self.on_brightness = 127
+    }
+    
+    // Define callbacks for on click events
+    // They are defined as functions below and can be any name as long as the
+    // 'self'variables match the callbacks array below
+    // We need to add them into the object for later reference
+   
+    self.OnButtonClick = OnButtonClick
+    self.OnRaiseLevelClick = OnRaiseLevelClick
+    self.OnLowerLevelClick = OnLowerLevelClick
+    
+    var callbacks =
+        [
+            {"selector": '#' + widget_id + ' > span', "action": "click", "callback": self.OnButtonClick},
+            {"selector": '#' + widget_id + ' #level-up', "action": "click", "callback": self.OnRaiseLevelClick},
+            {"selector": '#' + widget_id + ' #level-down', "action": "click", "callback": self.OnLowerLevelClick},
+        ]        
+     
+    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
+    // Initial will be called when the dashboard loads and state has been gathered for the entity
+    // Update will be called every time an update occurs for that entity
+     
+    self.OnStateAvailable = OnStateAvailable
+    self.OnStateUpdate = OnStateUpdate
+    
+    var monitored_entities = 
+        [
+            {"entity": entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
+        ]
+    
+    // Finally, call the parent constructor to get things moving
+    
+    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
+
+    // Function Definitions
+    
+    // The StateAvailable function will be called when 
+    // self.state[<entity>] has valid information for the requested entity
+    // state is the initial state
+    
+    function OnStateAvailable(self, state)
+    {        
+        self.state = state.state;
+        if ("brightness" in state.attributes)
+        {
+            self.level = state.attributes.brightness
+        }
+        else
+        {
+            self.level = 0
+        }
+        set_view(self, self.state, self.level)
+    }
+    
+    // The OnStateUpdate function will be called when the specific entity
+    // receives a state update - it's new values will be available
+    // in self.state[<entity>] and returned in the state parameter
+    
+    function OnStateUpdate(self, state)
+    {
+        self.state = state.state;
+        if ("brightness" in state.attributes)
+        {
+            self.level = state.attributes.brightness
+        }
+        else
+        {
+            self.level = 0
+        }
+
+        set_view(self, self.state, self.level)
+    }
+    
+    function OnButtonClick(self)
+    {
+        if (self.state == "off")
+        {
+            args = self.parameters.post_service_active 
+            if ("on_attributes" in self.parameters)
+            {
+                for (var attr in self.parameters.on_attributes)
+                {
+                    args[attr] = self.parameters.on_attributes[attr]
+                }
+            }
+        }
+        else
+        {
+            args = self.parameters.post_service_inactive
+        }
+        self.call_service(self, args)
+        toggle(self)
+    }
+
+    function OnRaiseLevelClick(self)
+    {
+        self.level = self.level + 255/10;
+        self.level = parseInt(self.level)
+        if (self.level > 255)
+        {
+            self.level = 255
+        }
+        args = self.parameters.post_service_active 
+        args["brightness"] = self.level
+        self.call_service(self, args)
+    }
+
+    function OnLowerLevelClick(self)
+    {
+        self.level = self.level - 255/10;
+        if (self.level < 0)
+        {
+            self.level = 0;
+        }
+        self.level = parseInt(self.level)
+        if (self.level == 0)
+        {
+            args = self.parameters.post_service_inactive
+        }
+        else
+        {
+            args = self.parameters.post_service_active 
+            args["brightness"] = self.level
+        }
+        self.call_service(self, args)             
+    }
+
+    function toggle(self)
+    {
+        if (self.state == "on")
+        {
+            self.state = "off";
+            self.level = 0
+        }
+        else
+        {
+            self.state = "on";
+        }
+        set_view(self, self.state, self.level)
+    }
+    
+    // Set view is a helper function to set all aspects of the widget to its 
+    // current state - it is called by widget code when an update occurs
+    // or some other event that requires a an update of the view
+    
+    function set_view(self, state, level)
+    {
+        
+        if (state == "on")
+        {
+            // Set Icon will set the style correctly for an icon
+            self.set_icon(self, "icon", self.icons.icon_on)
+            // Set view will set the view for the appropriate field
+            self.set_field(self, "icon_style", self.css.icon_style_active)
+        }
+        else
+        {
+            self.set_icon(self, "icon", self.icons.icon_off)
+            self.set_field(self, "icon_style", self.css.icon_style_inactive)
+        }
+        if (typeof level == 'undefined')
+        {
+            self.set_field(self, "level", 0)
+        }
+        else
+        {
+            self.set_field(self, "level", Math.ceil((level*100/255) / 10) * 10)
+        }
+    }
+}
+function baseerror(widget_id, url, skin, parameters)
+{
+    // Will be using "self" throughout for the various flavors of "this"
+    // so for consistency ...
+    
+    self = this
+    
+    // Initialization
+    
+    self.widget_id = widget_id
+    
+    // Store on brightness or fallback to a default
+        
+    // Parameters may come in useful later on
+    
+    self.parameters = parameters
+       
+    var callbacks = []
+
+    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
+    // Initial will be called when the dashboard loads and state has been gathered for the entity
+    // Update will be called every time an update occurs for that entity
+
+    var monitored_entities =  []
+
+    // Finally, call the parent constructor to get things moving
+    
+    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)
+
+}
+function javascript(widget_id, url, skin, parameters)
+{
+    // Store Args
+    this.widget_id = widget_id
+    this.parameters = parameters
+    this.skin = skin
+        
+    // Will be using "self" throughout for the various flavors of "this"
+    // so for consistency ...
+    
+    self = this
+    
+    // Initialization
+    
+    self.widget_id = widget_id
+    
+    // Store on brightness or fallback to a default
+        
+    // Parameters may come in useful later on
+    
+    self.parameters = parameters
+        
+    // Define callbacks for on click events
+    // They are defined as functions below and can be any name as long as the
+    // 'self'variables match the callbacks array below
+    // We need to add them into the object for later reference
+   
+    self.OnButtonClick = OnButtonClick
+
+    var callbacks =
+        [
+            {"selector": '#' + widget_id + ' > span', "action": "click","callback": self.OnButtonClick},
+        ]
+       
+    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
+    // Initial will be called when the dashboard loads and state has been gathered for the entity
+    // Update will be called every time an update occurs for that entity
+    
+    var monitored_entities = 
+        []
+    
+    // Finally, call the parent constructor to get things moving
+    
+    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
+
+    // Function Definitions
+    
+    // The StateAvailable function will be called when 
+    // self.state[<entity>] has valid information for the requested entity
+    // state is the initial state
+    
+    if ("command" in parameters)
+    {
+        command = parameters.command
+    }
+    else if ("url" in parameters || "dashboard" in parameters)
+    {
+        if ("url" in parameters)
+        {
+            url = parameters.url
+        }
+        else
+        {
+            url = "/" + parameters.dashboard
+        }
+        var i = 0;
+
+        if ("args" in parameters)
+        {
+            
+            url = url + "?"
+            
+            for (var key in parameters.args)
+            {
+                if (i != 0)
+                {
+                    url = url + "&"
+                }
+                url = url + key + "=" + parameters.args[key]
+                i++
+            }
+        }
+        if ("skin" in parameters)
+        {
+            theskin = parameters.skin
+        }
+        else
+        {
+            theskin = skin
+        }
+        if (i == 0)
+        {
+            url = url + "?skin=" + theskin
+        }
+        else
+        {
+            url = url + "&skin=" + theskin
+        }
+        command = "window.location.href = '" + url + "'"
+    }
+    
+    self.set_icon(self, "icon", self.icons.icon_inactive)
+    self.set_field(self, "icon_style", self.css.icon_inactive_style)
+    
+    self.command = command
+    
+    function OnButtonClick(self)
+    {
+        self.set_icon(self, "icon", self.icons.icon_active)
+        self.set_field(self, "icon_style", self.css.icon_active_style)
+        eval(self.command);
+    }
+}
+function basegauge(widget_id, url, skin, parameters)
+{
+    // Will be using "self" throughout for the various flavors of "this"
+    // so for consistency ...
+    
+    self = this
+    
+    // Initialization
+    
+    self.widget_id = widget_id
+    
+    // Store on brightness or fallback to a default
+        
+    // Parameters may come in useful later on
+    
+    self.parameters = parameters
+       
+    var callbacks = []
+
+    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
+    // Initial will be called when the dashboard loads and state has been gathered for the entity
+    // Update will be called every time an update occurs for that entity
+     
+    self.OnStateAvailable = OnStateAvailable
+    self.OnStateUpdate = OnStateUpdate
+    
+    if ("entity" in parameters)
+    {
+        var monitored_entities = 
+            [
+                {"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
+            ]
+    }
+    else
+    {
+        var monitored_entities =  []
+    }
+
+    self.gauge = new JustGage({
+    parentNode: $('#' + widget_id + ' > div')[0],
+    //id: "graph",
+    value: 0,
+    nogradient: true,
+    levelColors: [self.parameters.low_color, self.parameters.med_color, self.parameters.high_color],
+    labelFontColor: self.parameters.color,
+    valueFontColor: self.parameters.color,
+    levelColorsGradient: false,
+    gaugeColor: self.parameters.bgcolor,
+    symbol: self.parameters.units,
+    min: self.parameters.min,
+    max: self.parameters.max,
+  });
+
+
+    // Finally, call the parent constructor to get things moving
+    
+    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
+
+    // Function Definitions
+    
+    // The StateAvailable function will be called when 
+    // self.state[<entity>] has valid information for the requested entity
+    // state is the initial state
+    // Methods
+
+    function OnStateAvailable(self, state)
+    {    
+        set_value(self, state)
+    }
+ 
+    function OnStateUpdate(self, state)
+    {
+        set_value(self, state)
+    }
+
+    function set_value(self, state)
+    {
+        self.gauge.refresh(state.state)
+    }
+}
+function baseweather(widget_id, url, skin, parameters)
+{
+    // Will be using "self" throughout for the various flavors of "this"
+    // so for consistency ...
+
+    self = this;
+
+    self.weather_icons =
+    {
+      "rain": '&#xe009',
+      "snow": '&#xe036',
+      "sleet": '&#xe003',
+      "wind": '&#xe021',
+      "fog": '&#xe01b',
+      "cloudy": '&#xe000',
+      "clear-day": '&#xe028',
+      "clear-night": '&#xe02d',
+      "partly-cloudy-day": '&#xe001',
+      "partly-cloudy-night": '&#xe002'    
+    };
+
+    // Initialization
+
+    self.widget_id = widget_id;
+
+    // Store on brightness or fallback to a default
+
+    // Parameters may come in useful later on
+
+    self.parameters = parameters;
+
+    var callbacks = [];
+
+    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
+    // Initial will be called when the dashboard loads and state has been gathered for the entity
+    // Update will be called every time an update occurs for that entity
+
+    self.OnStateAvailable = OnStateAvailable;
+    self.OnStateUpdate = OnStateUpdate;
+
+    var monitored_entities =
+    [
+        {"entity": "sensor.dark_sky_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_humidity", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_precip_probability", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_precip_intensity", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_wind_speed", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_pressure", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_wind_bearing", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_apparent_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
+        {"entity": "sensor.dark_sky_icon", "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
+    ];
+
+    // Finally, call the parent constructor to get things moving
+
+    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks);
+
+    // Function Definitions
+
+    // The StateAvailable function will be called when
+    // self.state[<entity>] has valid information for the requested entity
+    // state is the initial state
+    // Methods
+
+    function OnStateUpdate(self, state)
+    {
+        set_view(self, state)
+    }
+
+    function OnStateAvailable(self, state)
+    {
+        if (state.entity_id == "sensor.dark_sky_temperature")
+        {
+            self.set_field(self, "unit", state.attributes.unit_of_measurement)
+        }
+        set_view(self, state)
+    }
+
+    function set_view(self, state)
+    {
+        if (state.entity_id == "sensor.dark_sky_icon")
+        {
+            self.set_field(self, "dark_sky_icon", self.weather_icons[state.state])
+        }
+        else
+        {
+            var field = state.entity_id.split(".")[1];
+            self.set_field(self, field, state.state)
+        }
+    }
+}
+function baseslider(widget_id, url, skin, parameters)
+{
+
+    // Will be using "self" throughout for the various flavors of "this"
+    // so for consistency ...
+
+    self = this
+
+    // Initialization
+
+    self.widget_id = widget_id
+
+    // Parameters may come in useful later on
+
+    self.parameters = parameters
+
+    self.OnRaiseLevelClick = OnRaiseLevelClick
+    self.OnLowerLevelClick = OnLowerLevelClick
+
+    var callbacks =
+        [
+            {"selector": '#' + widget_id + ' #level-up', "action": "click", "callback": self.OnRaiseLevelClick},
+            {"selector": '#' + widget_id + ' #level-down', "action": "click", "callback": self.OnLowerLevelClick},
+        ]
+
+    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
+    // Initial will be called when the dashboard loads and state has been gathered for the entity
+    // Update will be called every time an update occurs for that entity
+
+    self.OnStateAvailable = OnStateAvailable
+    self.OnStateUpdate = OnStateUpdate
+
+    if ("entity" in parameters)
+    {
+        var monitored_entities =
+            [
+                {"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
+            ]
+    }
+    else
+    {
+        var monitored_entities =  []
+    }
+
+    // Finally, call the parent constructor to get things moving
+
+    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)
+
+    // Function Definitions
+
+    // The StateAvailable function will be called when
+    // self.state[<entity>] has valid information for the requested entity
+    // state is the initial state
+    // Methods
+
+    function OnStateAvailable(self, state)
+    {
+        self.min = state.attributes.min
+        self.max = state.attributes.max
+        self.step = state.attributes.step
+        self.level = state.state
+        if ("units" in self.parameters)
+        {
+            self.set_field(self, "unit", self.parameters.units)
+        }
+        set_view(self, state)
+    }
+
+    function OnStateUpdate(self, state)
+    {
+        self.level = state.state
+        set_view(self, state)
+    }
+
+	function OnRaiseLevelClick(self)
+    {
+        self.level = parseFloat(self.level) + self.step;
+		if (self.level > self.max)
+		{
+			self.level = self.max
+		}
+		args = self.parameters.post_service
+        args["value"] = self.level
+		self.call_service(self, args)
+    }
+
+	function OnLowerLevelClick(self, args)
+    {
+        self.level = parseFloat(self.level) - self.step;
+		if (self.level < self.min)
+		{
+			self.level = self.min
+		}
+		args = self.parameters.post_service
+        args["value"] = self.level
+		self.call_service(self, args)
+    }
+
+	function set_view(self, state)
+    {
+        self.set_field(self, "level", self.format_number(self, state.state))
+	}
 }
 function basemedia(widget_id, url, skin, parameters)
 {
@@ -620,211 +1302,63 @@ function basemedia(widget_id, url, skin, parameters)
         console.log("SHUFFLE_SET: " + is_supported(self, "SHUFFLE_SET"))
     }
 }
-function javascript(widget_id, url, skin, parameters)
+function baseiframe(widget_id, url, skin, parameters)
 {
-    // Store Args
-    this.widget_id = widget_id
-    this.parameters = parameters
-    this.skin = skin
-        
-    // Will be using "self" throughout for the various flavors of "this"
-    // so for consistency ...
-    
     self = this
     
     // Initialization
     
-    self.widget_id = widget_id
+    self.parameters = parameters;
     
-    // Store on brightness or fallback to a default
-        
-    // Parameters may come in useful later on
+    var callbacks = []
     
-    self.parameters = parameters
-        
-    // Define callbacks for on click events
-    // They are defined as functions below and can be any name as long as the
-    // 'self'variables match the callbacks array below
-    // We need to add them into the object for later reference
-   
-    self.OnButtonClick = OnButtonClick
-
-    var callbacks =
-        [
-            {"selector": '#' + widget_id + ' > span', "action": "click","callback": self.OnButtonClick},
-        ]
-       
-    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
-    // Initial will be called when the dashboard loads and state has been gathered for the entity
-    // Update will be called every time an update occurs for that entity
+    var monitored_entities = []
     
-    var monitored_entities = 
-        []
-    
-    // Finally, call the parent constructor to get things moving
+    // Call the parent constructor to get things moving
     
     WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
 
-    // Function Definitions
+    // Set the url
     
-    // The StateAvailable function will be called when 
-    // self.state[<entity>] has valid information for the requested entity
-    // state is the initial state
-    
-    if ("command" in parameters)
+    if ("url_list" in parameters || "img_list" in parameters || "entity_picture" in parameters)
     {
-        command = parameters.command
+        self.index = 0;
+        refresh_frame(self)
     }
-    else if ("url" in parameters || "dashboard" in parameters)
+    
+    function refresh_frame(self)
     {
-        if ("url" in parameters)
+        if ("url_list" in self.parameters)
         {
-            url = parameters.url
+            self.set_field(self, "frame_src", self.parameters.url_list[self.index]);
+            self.set_field(self, "img_src", "/images/Blank.gif");
+            size = self.parameters.url_list.length
         }
-        else
+        else if ("img_list" in self.parameters)
         {
-            url = "/" + parameters.dashboard
+            self.set_field(self, "img_src", self.parameters.img_list[self.index]);
+            size = self.parameters.img_list.length
         }
-        var i = 0;
-
-        if ("args" in parameters)
+        else if ("entity_picture" in self.parameters)
         {
-            
-            url = url + "?"
-            
-            for (var key in parameters.args)
+            var url = self.parameters.entity_picture
+            url = url + "&time=" + Math.floor((new Date).getTime()/1000);
+            self.set_field(self, "img_src", url);
+            size = 1
+        }
+        
+        if ("refresh" in self.parameters)
+        {
+            self.index = self.index + 1;
+            if (self.index == size)
             {
-                if (i != 0)
-                {
-                    url = url + "&"
-                }
-                url = url + key + "=" + parameters.args[key]
-                i++
+                self.index = 0;
             }
-        }
-        if ("skin" in parameters)
-        {
-            theskin = parameters.skin
-        }
-        else
-        {
-            theskin = skin
-        }
-        if (i == 0)
-        {
-            url = url + "?skin=" + theskin
-        }
-        else
-        {
-            url = url + "&skin=" + theskin
-        }
-        command = "window.location.href = '" + url + "'"
-    }
-    
-    self.set_icon(self, "icon", self.icons.icon_inactive)
-    self.set_field(self, "icon_style", self.css.icon_inactive_style)
-    
-    self.command = command
-    
-    function OnButtonClick(self)
-    {
-        self.set_icon(self, "icon", self.icons.icon_active)
-        self.set_field(self, "icon_style", self.css.icon_active_style)
-        eval(self.command);
-    }
-}
-function baseweather(widget_id, url, skin, parameters)
-{
-    // Will be using "self" throughout for the various flavors of "this"
-    // so for consistency ...
-
-    self = this;
-
-    self.weather_icons =
-    {
-      "rain": '&#xe009',
-      "snow": '&#xe036',
-      "sleet": '&#xe003',
-      "wind": '&#xe021',
-      "fog": '&#xe01b',
-      "cloudy": '&#xe000',
-      "clear-day": '&#xe028',
-      "clear-night": '&#xe02d',
-      "partly-cloudy-day": '&#xe001',
-      "partly-cloudy-night": '&#xe002'    
-    };
-
-    // Initialization
-
-    self.widget_id = widget_id;
-
-    // Store on brightness or fallback to a default
-
-    // Parameters may come in useful later on
-
-    self.parameters = parameters;
-
-    var callbacks = [];
-
-    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
-    // Initial will be called when the dashboard loads and state has been gathered for the entity
-    // Update will be called every time an update occurs for that entity
-
-    self.OnStateAvailable = OnStateAvailable;
-    self.OnStateUpdate = OnStateUpdate;
-
-    var monitored_entities =
-    [
-        {"entity": "sensor.dark_sky_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_humidity", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_precip_probability", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_precip_intensity", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_wind_speed", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_pressure", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_wind_bearing", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_apparent_temperature", "initial": self.OnStateAvailable, "update": self.OnStateUpdate},
-        {"entity": "sensor.dark_sky_icon", "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
-    ];
-
-    // Finally, call the parent constructor to get things moving
-
-    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks);
-
-    // Function Definitions
-
-    // The StateAvailable function will be called when
-    // self.state[<entity>] has valid information for the requested entity
-    // state is the initial state
-    // Methods
-
-    function OnStateUpdate(self, state)
-    {
-        set_view(self, state)
-    }
-
-    function OnStateAvailable(self, state)
-    {
-        if (state.entity_id == "sensor.dark_sky_temperature")
-        {
-            self.set_field(self, "unit", state.attributes.unit_of_measurement)
-        }
-        set_view(self, state)
-    }
-
-    function set_view(self, state)
-    {
-        if (state.entity_id == "sensor.dark_sky_icon")
-        {
-            self.set_field(self, "dark_sky_icon", self.weather_icons[state.state])
-        }
-        else
-        {
-            var field = state.entity_id.split(".")[1];
-            self.set_field(self, field, state.state)
+            setTimeout(function() {refresh_frame(self)}, self.parameters.refresh * 1000);
         }
     }
 }
-function baselight(widget_id, url, skin, parameters)
+function baserss(widget_id, url, skin, parameters)
 {
     // Will be using "self" throughout for the various flavors of "this"
     // so for consistency ...
@@ -835,46 +1369,14 @@ function baselight(widget_id, url, skin, parameters)
     
     self.widget_id = widget_id
     
+    // Store on brightness or fallback to a default
+        
     // Parameters may come in useful later on
     
     self.parameters = parameters
-    
-    // Parameter handling
-    
-    if ("monitored_entity" in self.parameters)
-    {
-        entity = self.parameters.monitored_entity
-    }
-    else
-    {
-        entity = self.parameters.entity
-    }
-    
-    if ("on_brightness" in self.parameters)
-    {
-        self.on_brightness = self.parameters.on_brightness
-    }
-    else
-    {
-        self.on_brightness = 127
-    }
-    
-    // Define callbacks for on click events
-    // They are defined as functions below and can be any name as long as the
-    // 'self'variables match the callbacks array below
-    // We need to add them into the object for later reference
-   
-    self.OnButtonClick = OnButtonClick
-    self.OnRaiseLevelClick = OnRaiseLevelClick
-    self.OnLowerLevelClick = OnLowerLevelClick
-    
-    var callbacks =
-        [
-            {"selector": '#' + widget_id + ' > span', "action": "click", "callback": self.OnButtonClick},
-            {"selector": '#' + widget_id + ' #level-up', "action": "click", "callback": self.OnRaiseLevelClick},
-            {"selector": '#' + widget_id + ' #level-down', "action": "click", "callback": self.OnLowerLevelClick},
-        ]        
-     
+       
+    var callbacks = []
+
     // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
     // Initial will be called when the dashboard loads and state has been gathered for the entity
     // Update will be called every time an update occurs for that entity
@@ -882,11 +1384,17 @@ function baselight(widget_id, url, skin, parameters)
     self.OnStateAvailable = OnStateAvailable
     self.OnStateUpdate = OnStateUpdate
     
-    var monitored_entities = 
-        [
-            {"entity": entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
-        ]
-    
+    if ("entity" in parameters)
+    {
+        var monitored_entities = 
+            [
+                {"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
+            ]
+    }
+    else
+    {
+        var monitored_entities =  []
+    }
     // Finally, call the parent constructor to get things moving
     
     WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
@@ -896,134 +1404,34 @@ function baselight(widget_id, url, skin, parameters)
     // The StateAvailable function will be called when 
     // self.state[<entity>] has valid information for the requested entity
     // state is the initial state
-    
+    // Methods
+
     function OnStateAvailable(self, state)
-    {        
-        self.state = state.state;
-        if ("brightness" in state.attributes)
-        {
-            self.level = state.attributes.brightness
-        }
-        else
-        {
-            self.level = 0
-        }
-        set_view(self, self.state, self.level)
+    {    
+        set_value(self, state)
     }
-    
-    // The OnStateUpdate function will be called when the specific entity
-    // receives a state update - it's new values will be available
-    // in self.state[<entity>] and returned in the state parameter
-    
+ 
     function OnStateUpdate(self, state)
     {
-        self.state = state.state;
-        if ("brightness" in state.attributes)
-        {
-            self.level = state.attributes.brightness
-        }
-        else
-        {
-            self.level = 0
-        }
-
-        set_view(self, self.state, self.level)
-    }
-    
-    function OnButtonClick(self)
-    {
-        if (self.state == "off")
-        {
-            args = self.parameters.post_service_active 
-            if ("on_attributes" in self.parameters)
-            {
-                for (var attr in self.parameters.on_attributes)
-                {
-                    args[attr] = self.parameters.on_attributes[attr]
-                }
-            }
-        }
-        else
-        {
-            args = self.parameters.post_service_inactive
-        }
-        self.call_service(self, args)
-        toggle(self)
+        set_value(self, state)
     }
 
-    function OnRaiseLevelClick(self)
+    function set_value(self, state)
     {
-        self.level = self.level + 255/10;
-        self.level = parseInt(self.level)
-        if (self.level > 255)
-        {
-            self.level = 255
-        }
-        args = self.parameters.post_service_active 
-        args["brightness"] = self.level
-        self.call_service(self, args)
+        self.story = 0
+        clearTimeout(self.timer)
+        show_next_story(self)
+        self.timer = setInterval(show_next_story, self.parameters.interval * 1000, self);
     }
 
-    function OnLowerLevelClick(self)
+    function show_next_story(self)
     {
-        self.level = self.level - 255/10;
-        if (self.level < 0)
+        var stories = self.entity_state[parameters.entity].feed.entries;
+        self.set_field(self, "text", stories[self.story].title)
+        self.story = self.story + 1;
+        if ((self.story >= stories.length) || ("recent" in parameters && self.story >= parameters.recent))
         {
-            self.level = 0;
-        }
-        self.level = parseInt(self.level)
-        if (self.level == 0)
-        {
-            args = self.parameters.post_service_inactive
-        }
-        else
-        {
-            args = self.parameters.post_service_active 
-            args["brightness"] = self.level
-        }
-        self.call_service(self, args)             
-    }
-
-    function toggle(self)
-    {
-        if (self.state == "on")
-        {
-            self.state = "off";
-            self.level = 0
-        }
-        else
-        {
-            self.state = "on";
-        }
-        set_view(self, self.state, self.level)
-    }
-    
-    // Set view is a helper function to set all aspects of the widget to its 
-    // current state - it is called by widget code when an update occurs
-    // or some other event that requires a an update of the view
-    
-    function set_view(self, state, level)
-    {
-        
-        if (state == "on")
-        {
-            // Set Icon will set the style correctly for an icon
-            self.set_icon(self, "icon", self.icons.icon_on)
-            // Set view will set the view for the appropriate field
-            self.set_field(self, "icon_style", self.css.icon_style_active)
-        }
-        else
-        {
-            self.set_icon(self, "icon", self.icons.icon_off)
-            self.set_field(self, "icon_style", self.css.icon_style_inactive)
-        }
-        if (typeof level == 'undefined')
-        {
-            self.set_field(self, "level", 0)
-        }
-        else
-        {
-            self.set_field(self, "level", Math.ceil((level*100/255) / 10) * 10)
+            self.story = 0;
         }
     }
 }
@@ -1134,384 +1542,6 @@ function baseclimate(widget_id, url, skin, parameters)
             self.set_field(self, "level2", "auto")
         }
 	}
-}
-function baseiframe(widget_id, url, skin, parameters)
-{
-    self = this
-    
-    // Initialization
-    
-    self.parameters = parameters;
-    
-    var callbacks = []
-    
-    var monitored_entities = []
-    
-    // Call the parent constructor to get things moving
-    
-    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
-
-    // Set the url
-    
-    if ("url_list" in parameters || "img_list" in parameters || "entity_picture" in parameters)
-    {
-        self.index = 0;
-        refresh_frame(self)
-    }
-    
-    function refresh_frame(self)
-    {
-        if ("url_list" in self.parameters)
-        {
-            self.set_field(self, "frame_src", self.parameters.url_list[self.index]);
-            self.set_field(self, "img_src", "/images/Blank.gif");
-            size = self.parameters.url_list.length
-        }
-        else if ("img_list" in self.parameters)
-        {
-            self.set_field(self, "img_src", self.parameters.img_list[self.index]);
-            size = self.parameters.img_list.length
-        }
-        else if ("entity_picture" in self.parameters)
-        {
-            var url = self.parameters.entity_picture
-            url = url + "&time=" + Math.floor((new Date).getTime()/1000);
-            self.set_field(self, "img_src", url);
-            size = 1
-        }
-        
-        if ("refresh" in self.parameters)
-        {
-            self.index = self.index + 1;
-            if (self.index == size)
-            {
-                self.index = 0;
-            }
-            setTimeout(function() {refresh_frame(self)}, self.parameters.refresh * 1000);
-        }
-    }
-}
-function baseslider(widget_id, url, skin, parameters)
-{
-
-    // Will be using "self" throughout for the various flavors of "this"
-    // so for consistency ...
-
-    self = this
-
-    // Initialization
-
-    self.widget_id = widget_id
-
-    // Parameters may come in useful later on
-
-    self.parameters = parameters
-
-    self.OnRaiseLevelClick = OnRaiseLevelClick
-    self.OnLowerLevelClick = OnLowerLevelClick
-
-    var callbacks =
-        [
-            {"selector": '#' + widget_id + ' #level-up', "action": "click", "callback": self.OnRaiseLevelClick},
-            {"selector": '#' + widget_id + ' #level-down', "action": "click", "callback": self.OnLowerLevelClick},
-        ]
-
-    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
-    // Initial will be called when the dashboard loads and state has been gathered for the entity
-    // Update will be called every time an update occurs for that entity
-
-    self.OnStateAvailable = OnStateAvailable
-    self.OnStateUpdate = OnStateUpdate
-
-    if ("entity" in parameters)
-    {
-        var monitored_entities =
-            [
-                {"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate}
-            ]
-    }
-    else
-    {
-        var monitored_entities =  []
-    }
-
-    // Finally, call the parent constructor to get things moving
-
-    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)
-
-    // Function Definitions
-
-    // The StateAvailable function will be called when
-    // self.state[<entity>] has valid information for the requested entity
-    // state is the initial state
-    // Methods
-
-    function OnStateAvailable(self, state)
-    {
-        self.min = state.attributes.min
-        self.max = state.attributes.max
-        self.step = state.attributes.step
-        self.level = state.state
-        if ("units" in self.parameters)
-        {
-            self.set_field(self, "unit", self.parameters.units)
-        }
-        set_view(self, state)
-    }
-
-    function OnStateUpdate(self, state)
-    {
-        self.level = state.state
-        set_view(self, state)
-    }
-
-	function OnRaiseLevelClick(self)
-    {
-        self.level = parseFloat(self.level) + self.step;
-		if (self.level > self.max)
-		{
-			self.level = self.max
-		}
-		args = self.parameters.post_service
-        args["value"] = self.level
-		self.call_service(self, args)
-    }
-
-	function OnLowerLevelClick(self, args)
-    {
-        self.level = parseFloat(self.level) - self.step;
-		if (self.level < self.min)
-		{
-			self.level = self.min
-		}
-		args = self.parameters.post_service
-        args["value"] = self.level
-		self.call_service(self, args)
-    }
-
-	function set_view(self, state)
-    {
-        self.set_field(self, "level", self.format_number(self, state.state))
-	}
-}
-function baseclock(widget_id, url, skin, parameters)
-{
-    // Will be using "self" throughout for the various flavors of "this"
-    // so for consistency ...
-    
-    self = this
-    
-    // Initialization
-    
-    self.widget_id = widget_id
-    
-    // Parameters may come in useful later on
-    
-    self.parameters = parameters
-    
-    // Define callbacks for on click events
-    // They are defined as functions below and can be any name as long as the
-    // 'self'variables match the callbacks array below
-    // We need to add them into the object for later reference
-   
-    var callbacks = []        
-     
-    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
-    // Initial will be called when the dashboard loads and state has been gathered for the entity
-    // Update will be called every time an update occurs for that entity
-     
-    var monitored_entities = []
-    
-    // Finally, call the parent constructor to get things moving
-    
-    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
-
-    // Function Definitions
-    
-    // The StateAvailable function will be called when 
-    // self.state[<entity>] has valid information for the requested entity
-    // state is the initial state
-    
-	updateTime(self)
-	
-	setInterval(updateTime, 500, self);
-
-	function updateTime(self) 
-	{
-		var today = new Date();
-		h = today.getHours();
-		m = today.getMinutes();
-		s = today.getSeconds();
-		m = formatTime(m);
-		
-        self.set_field(self, "date", today.toLocaleDateString());
-		
-		if ("time_format" in self.parameters && self.parameters.time_format == "24hr")
-		{
-			time = h + ":" + m;
-			pm = ""
-		}
-		else
-		{
-			time = formatHours(h) + ":" + m;
-			pm = " " + formatAmPm(h)
-		}
-		
-		if ("show_seconds" in self.parameters && self.parameters.show_seconds == 1)
-		{
-			time = time + ":" + formatTime(s)
-		}
-		
-		time = time + pm
-		self.set_field(self, "time", time);
-	}
-
-	function formatTime(i)
-	{
-		if (i < 10 )
-		{
-			return "0" + i;
-		}
-		else
-		{
-			return i;
-		}
-	}
-
-	function formatAmPm(h)
-	{
-		if (h >= 12)
-		{
-			return "PM";
-		}
-		else
-		{
-			return "AM";
-		}
-	}
-
-	function formatHours(h)
-	{
-		if (h > 12)
-		{
-			return h - 12;
-		}
-		else if (h == 0)
-		{
-			return 12;
-		}
-		else
-		{
-			return h;
-		}
-	}
-}
-function basedisplay(widget_id, url, skin, parameters)
-{
-    // Will be using "self" throughout for the various flavors of "this"
-    // so for consistency ...
-    
-    self = this
-    
-    // Initialization
-    
-    self.widget_id = widget_id
-    
-    // Store on brightness or fallback to a default
-        
-    // Parameters may come in useful later on
-    
-    self.parameters = parameters
-       
-    var callbacks = []
-
-    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
-    // Initial will be called when the dashboard loads and state has been gathered for the entity
-    // Update will be called every time an update occurs for that entity
-     
-    self.OnStateAvailable = OnStateAvailable
-    self.OnStateUpdate = OnStateUpdate
-    self.OnSubStateAvailable = OnSubStateAvailable
-    self.OnSubStateUpdate = OnSubStateUpdate
-
-    var monitored_entities =  []
-
-    if ("entity" in parameters)
-    {
-        monitored_entities.push({"entity": parameters.entity, "initial": self.OnStateAvailable, "update": self.OnStateUpdate})
-    }
-    if ("sub_entity" in parameters && parameters.sub_entity != "")
-    {
-        monitored_entities.push({"entity": parameters.sub_entity, "initial": self.OnSubStateAvailable, "update": self.OnSubStateUpdate})
-    }
-
-
-    // Finally, call the parent constructor to get things moving
-    
-    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)  
-
-    // Function Definitions
-    
-    // The StateAvailable function will be called when 
-    // self.state[<entity>] has valid information for the requested entity
-    // state is the initial state
-    // Methods
-
-    function OnStateAvailable(self, state)
-    {    
-        set_value(self, state)
-    }
- 
-    function OnStateUpdate(self, state)
-    {
-        set_value(self, state)
-    }
-
-    function OnSubStateAvailable(self, state)
-    {
-        set_sub_value(self, state)
-    }
-
-    function OnSubStateUpdate(self, state)
-    {
-        set_sub_value(self, state)
-    }
-
-    function set_value(self, state)
-    {
-        value = self.map_state(self, state.state)
-        if (isNaN(value))
-        {
-            self.set_field(self, "value_style", self.parameters.css.text_style)
-            self.set_field(self, "value", self.map_state(self, value))
-        }
-        else
-        {
-            self.set_field(self, "value_style", self.parameters.css.value_style)
-            self.set_field(self, "value", self.format_number(self, value))
-            self.set_field(self, "unit_style", self.parameters.css.unit_style)
-            if ("units" in self.parameters)
-            {
-                self.set_field(self, "unit", self.parameters.units)
-            }
-            else
-            {
-                self.set_field(self, "unit", state.attributes["unit_of_measurement"])
-            }
-        }
-    }
-
-    function set_sub_value(self, state)
-    {
-        if ("sub_entity_map" in self.parameters)
-        {
-            self.set_field(self, "state_text", self.parameters.sub_entity_map[state.state])
-        }
-        else
-        {
-            self.set_field(self, "state_text", state.state)
-        }
-    }
 }
 function baseswitch(widget_id, url, skin, parameters)
 {
@@ -1645,34 +1675,4 @@ function baseswitch(widget_id, url, skin, parameters)
             self.set_field(self, "state_text", self.map_state(self, state))
         }
     }
-}
-function baseerror(widget_id, url, skin, parameters)
-{
-    // Will be using "self" throughout for the various flavors of "this"
-    // so for consistency ...
-    
-    self = this
-    
-    // Initialization
-    
-    self.widget_id = widget_id
-    
-    // Store on brightness or fallback to a default
-        
-    // Parameters may come in useful later on
-    
-    self.parameters = parameters
-       
-    var callbacks = []
-
-    // Define callbacks for entities - this model allows a widget to monitor multiple entities if needed
-    // Initial will be called when the dashboard loads and state has been gathered for the entity
-    // Update will be called every time an update occurs for that entity
-
-    var monitored_entities =  []
-
-    // Finally, call the parent constructor to get things moving
-    
-    WidgetBase.call(self, widget_id, url, skin, parameters, monitored_entities, callbacks)
-
 }

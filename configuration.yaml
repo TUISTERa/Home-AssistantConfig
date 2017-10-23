@@ -60,6 +60,7 @@ sun:
 # Text to speech
 tts:
   - platform: google
+    language: 'bg-BG'
     cache: true
     cache_dir: /tmp/tts
     time_memory: 300
@@ -90,6 +91,14 @@ panel_custom:
     sidebar_icon: mdi:floor-plan
     url_path: floorplan
     config: !include floorplan.yaml
+
+panel_iframe:
+  dashboard:
+    title: 'DASHBOARD'
+    url: 'https://home.failbg.com:5050/main'
+    icon: mdi:cellphone-iphone
+
+
 
 # binary_sensor: !include conf/binary_sensors.yaml
 telegram_bot:

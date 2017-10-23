@@ -10,7 +10,7 @@
   action:
     service: notify.Telegram
     data:
-      message: 'Georgi is home'      
+      message: 'Георги си е вкъщи'      
 
 
 - alias: ChargedBattery
@@ -22,20 +22,20 @@
   action:
     service: notify.Telegram
     data_template:
-      title: "Battery is charged"
-      message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"      
+      title: "Батерията на Coolpad е заредена"
+      # message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"      
 
-- alias: LowBattery
-  id: '1507552517533'
-  trigger:
-    platform: numeric_state
-    entity_id: sensor.battery_georgi_coolpad
-    below: 20
-  action:
-    service: notify.Telegram
-    data_template:
-      title: "Battery is low"
-      message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"
+# - alias: LowBattery
+#   id: '1507552517533'
+#   trigger:
+#     platform: numeric_state
+#     entity_id: sensor.battery_georgi_coolpad
+#     below: 20
+#   action:
+#     service: notify.Telegram
+#     data_template:
+#       title: "Battery is low"
+#       message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"
 
 # - action:
 #   - alias: Teleram
@@ -59,4 +59,4 @@
   action:
     service: notify.Telegram
     data:
-      message: 'There is a new Home Assistant release available.'
+      message: 'Има нова версиа на Home Assistant'
