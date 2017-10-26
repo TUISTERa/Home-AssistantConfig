@@ -1,17 +1,29 @@
-
-################# USER IS HOME#######################
+- alias: modem
+  id: '1507552514444'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.modem
+    from: 'on'
+    to: 'off'
+  action:
+    service: notify.Telegram
+    data:
+      message: "\u041C\u043E\u0434\u0435\u043C\u0430 \u0432 \u0413\u043E\u0440\u043D\
+        \u0438 \u0412\u043E\u0434\u0435\u043D \u0441\u0435 \u0440\u0430\u0437\u043A\
+        \u0430\u0447\u0438"
+#
 - alias: Check if user is at home and notify
   id: '1507552517531'
   trigger:
     platform: state
     entity_id: device_tracker.georgi_coolpad
-    from: 'not_home'
-    to: 'home'
+    from: not_home
+    to: home
   action:
     service: notify.Telegram
     data:
-      message: 'Георги си е вкъщи'      
-
+      message: "\u0413\u0435\u043E\u0440\u0433\u0438 \u0441\u0438 \u0435 \u0432\u043A\
+        \u044A\u0449\u0438"
 
 - alias: ChargedBattery
   id: '1507552517534'
@@ -22,41 +34,39 @@
   action:
     service: notify.Telegram
     data_template:
-      title: "Батерията на Coolpad е заредена"
-      # message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"      
-
-# - alias: LowBattery
-#   id: '1507552517533'
-#   trigger:
-#     platform: numeric_state
-#     entity_id: sensor.battery_georgi_coolpad
-#     below: 20
-#   action:
-#     service: notify.Telegram
-#     data_template:
-#       title: "Battery is low"
-#       message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % charged"
-
-# - action:
-#   - alias: Teleram
-#     data:
-#       message: "Phone battery is {{ states.sensor.battery_georgi_coolpad.state }} % "
-#     service: notify.Telegram
-#   alias: TestBattery
-#   condition: []
-#   id: '1507552517538'
-#   trigger:
-#   - below: '30'
-#     entity_id: sensor.battery_georgi_coolpad
-#     platform: numeric_state
-
+      title: "\u0411\u0430\u0442\u0435\u0440\u0438\u044F\u0442\u0430 \u043D\u0430\
+        \ Coolpad \u0435 \u0437\u0430\u0440\u0435\u0434\u0435\u043D\u0430"
 
 - alias: Update notifications
   id: '1507552517548'
   trigger:
-    - platform: state
-      entity_id: updater.updater
+  - platform: state
+    entity_id: updater.updater
   action:
     service: notify.Telegram
     data:
-      message: 'Има нова версиа на Home Assistant'
+      message: "\u0418\u043C\u0430 \u043D\u043E\u0432\u0430 \u0432\u0435\u0440\u0441\
+        \u0438\u0430 \u043D\u0430 Home Assistant"
+
+- alias: Fish Tank Lights On
+  action:
+  - alias: Turn lights On
+    data:
+      entity_id: light.fish_tank_lights
+    service: homeassistant.turn_on
+  id: '1509007001527'
+  trigger:
+  - at: '15:00:00'
+    platform: time
+
+
+- alias: Fish Tank Lights Off
+  action:
+  - alias: Turn lights Off
+    data:
+      entity_id: light.fish_tank_lights
+    service: homeassistant.turn_off
+  id: '1509007001528'
+  trigger:
+  - at: '22:00:10'
+    platform: time

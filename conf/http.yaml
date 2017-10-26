@@ -1,9 +1,9 @@
-api_password: !secret http_password
+#api_password: !secret http_password
 base_url: !secret http_url
 use_x_forwarded_for: true
 trusted_networks:
-  - 192.168.13.0/24
-  - 213.167.0.225
+  - !secret http_allow_ip1
+  - !secret http_allow_ip2
   #- 2001:DB8:ABCD::/48
   #- 212.77.22.6
 ip_ban_enabled: True

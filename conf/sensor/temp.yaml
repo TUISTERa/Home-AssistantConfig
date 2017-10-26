@@ -38,3 +38,11 @@
     temp_kitchen:
       friendly_name: "Kitchen temperature"
       value_template: "{{ states.sensor.external_temp.state | round(0) | float -1 }}"
+
+
+- platform: template
+  sensors:
+    tank_temp:
+      friendly_name: "Fish tank temperature"
+      value_template: "{{ states.sensor.external_temp.state | round(0) }}"
+

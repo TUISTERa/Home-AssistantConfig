@@ -1,0 +1,8 @@
+tank_view: 
+  view: yes
+  icon: mdi:fish
+  entities: 
+    - sensor.tank_temp
+    - light.fish_tank_lights
+    - switch.fish_fans
+

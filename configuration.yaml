@@ -39,37 +39,56 @@ ifttt:
   key: !secret ifttt
 
 # Discover some devices automatically
-discovery:
+#discovery:
+
+map:
     
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
 
 # Enables support for tracking state changes over time
-#history:
+history:
+  exclude:
+    domains:
+      - automation
+      - weblink
+      - updater
 
 # View all events in a logbook
-#logbook:
+logbook:
+  exclude:
+    domains:
+      - sun
+      - weblink
+
+logger:
+  default: critical
+  logs:
+    homeassistant.components: info
+    homeassistant.components.telegram_bot.polling: debug
+    homeassistant.components.device_tracker: critical
+    homeassistant.components.camera: critical
+    homeassistant.helpers.template: critical
+    homeassistant.components.http: critical
 
 # Track the sun
 sun:
 
-# Weather prediction
-#sensor:
-#  - platform: yr
+google:
+  client_id: !secret gcal_api_clientid
+  client_secret: !secret gcal_api_secret
+
 
 # Text to speech
 tts:
   - platform: google
-    language: 'bg-BG'
+    # language: 'bg-BG'
     cache: true
     cache_dir: /tmp/tts
     time_memory: 300
 
-#group: !include conf/groups.yaml  
 group: !include_dir_merge_named conf/group
 automation: !include automations.yaml
-#automation: !include conf/automation.yaml
-# sensor: !include conf/sensors.yaml
 sensor: !include_dir_merge_list conf/sensor
 switch: !include conf/switches.yaml
 device_tracker: !include conf/device_tracker.yaml
@@ -87,20 +106,19 @@ zone: !include conf/zones.yaml
 
 panel_custom:   
   - name: floorplan
-    sidebar_title: SKYNET
+    sidebar_title: Floorplan
     sidebar_icon: mdi:floor-plan
     url_path: floorplan
     config: !include floorplan.yaml
 
 panel_iframe:
   dashboard:
-    title: 'DASHBOARD'
-    url: 'https://home.failbg.com:5050/main'
+    title: Dashboard
+    url: !secret dashboard_url
     icon: mdi:cellphone-iphone
 
 
 
-# binary_sensor: !include conf/binary_sensors.yaml
 telegram_bot:
   platform: polling
   api_key: !secret telegram_api_key

@@ -2,6 +2,9 @@
   name: sonytv
   host: 192.168.13.13
 
+- platform: cast
+  host: 192.168.13.13
+
 - platform: plex
   name: plex
   show_all_controls: true

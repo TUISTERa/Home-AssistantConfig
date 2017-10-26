@@ -1,0 +1,18 @@
+
+- cal_id: !secret gcal_id1
+  entities:
+  - device_id: !secret gcal_device_id1
+    name: !secret gcal_name1
+    track: true
+
+- cal_id: !secret gcal_id2
+  entities:
+  - device_id: contacts
+    name: Contacts
+    track: true
+
+- cal_id: !secret gcal_id3
+  entities:
+  - device_id: __
+    name: "Православен календар"
+    track: true

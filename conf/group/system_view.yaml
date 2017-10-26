@@ -6,13 +6,11 @@ system_view:
     - sensor.cpuspeed
     - sensor.time_date
     # - group.date_time_cpu
-
-date_time_cpu:
-  name: Система
-  entities:
+    - binary_sensor.modem 
 
 
 ip_addresses:
   name: IP адреси
   entities:
     - sensor.bedroom_1_switch_1_ip_address
+

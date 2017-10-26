@@ -1,0 +1,4 @@
+# МОДЕМ В ГОРНИ ВОДЕН
+- platform: ping
+  name: modem
+  host: 213.167.3.224

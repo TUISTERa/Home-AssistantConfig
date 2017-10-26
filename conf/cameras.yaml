@@ -1,8 +1,8 @@
-- platform: local_file
-  file_path: /tmp/lastsnap.jpg
-  name: Front door  
+# - platform: local_file
+  # file_path: /tmp/lastsnap.jpg
+  # name: Front door  
   # name: Test Live cam
 
-# - platform: mjpeg
-#   mjpeg_url: http://127.0.0.1:18081
-#   name: Front door  
+- platform: mjpeg
+  mjpeg_url: http://127.0.0.1:8081
+  name: Front door  

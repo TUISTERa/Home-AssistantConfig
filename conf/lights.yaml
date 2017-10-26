@@ -1,4 +1,14 @@
 - platform: mqtt
+  command_topic: "/sky/tank/dual_01/relay/0/set"
+  state_topic: "/sky/tank/dual_01/relay/0"
+  payload_on: "1"
+  payload_off: "0"
+  optimistic: false
+  name: "Fish tank lights"
+  retain: true
+
+
+- platform: mqtt
   command_topic: "cmnd/sky/bedroom_1/switch_1/POWER"
   state_topic: "stat/sky/bedroom_1/switch_1/POWER"
   payload_on: "ON"
@@ -43,14 +53,14 @@
   name: "Bedroom 2"
   retain: true
 
-- platform: mqtt
-  command_topic: "cmnd/"
-  state_topic: "stat/sky/kitchen_1/switch_1/POWER"
-  payload_on: "ON"
-  payload_off: "OFF"
-  optimistic: false
-  name: "Kitchen 1"
-  retain: true
+# - platform: mqtt
+#   command_topic: "cmnd/"
+#   state_topic: "stat/sky/kitchen_1/switch_1/POWER"
+#   payload_on: "ON"
+#   payload_off: "OFF"
+#   optimistic: false
+#   name: "Kitchen 1"
+#   retain: true
 
 
 - platform: mqtt
@@ -62,7 +72,16 @@
   name: "Aquarium 1"
   retain: true
 
-
+- platform: mqtt
+  name: 'Kitchen 1'
+  state_topic: '/sky/bedroom_1/light_01/relay/0'
+  command_topic: '/sky/bedroom_1/light_01/relay/0/set'
+  payload_on: 1
+  payload_off: 0
+  rgb_state_topic: '/sky/bedroom_1/light_01/color'
+  rgb_command_topic: '/sky/bedroom_1/light_01/color/set'
+  rgb: true
+  optimistic: false
 # - platform: mqtt
 #   name: 'Kitchen 1'
 #   state_topic: '/sky/bedroom_1/light_01/relay/0'
