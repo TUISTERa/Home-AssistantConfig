@@ -34,6 +34,10 @@ config:
 #updater:
   # Optional, allows Home Assistant developers to focus on popular components.
   # include_used_components: true
+zwave:
+  usb_path: /dev/zwave
+  network_key: !secret zwave_network_key
+  debug: false
 
 ifttt:
   key: !secret ifttt
@@ -65,11 +69,12 @@ logger:
   default: critical
   logs:
     homeassistant.components: info
-    homeassistant.components.telegram_bot.polling: debug
-    homeassistant.components.device_tracker: critical
-    homeassistant.components.camera: critical
-    homeassistant.helpers.template: critical
-    homeassistant.components.http: critical
+    # homeassistant.components.telegram_bot.polling: critical
+    # homeassistant.components.device_tracker: critical
+    # homeassistant.components.camera: critical
+    # homeassistant.helpers.template: critical
+    # homeassistant.components.http: critical
+    homeassistant.components.zwave: debug
 
 # Track the sun
 sun:

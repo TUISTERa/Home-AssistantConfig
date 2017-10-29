@@ -1,0 +1,61 @@
+##
+## Main arguments, all optional
+##
+title: Управление на медиа
+widget_dimensions: [150, 150]
+widget_size: [1, 1]
+widget_margins: [5, 5]
+icon: mdi-tv
+columns: 2
+global_parameters:
+    use_comma: 0
+    precision: 1
+
+layout:
+    - clock, temp
+#    - sonytv(2x2)
+#    -
+    - sony
+    - reload, back
+
+
+
+sony:
+    widget_type: switch
+    entity: media_player.sonytv
+    title: Sony TV
+    icon_on: mdi-television
+    icon_off: mdi-television
+    state_text: 1
+    state_map:
+      "on": Включен
+      "off": Изключен
+    icon_style_active: "color: rgb(170, 255, 0);"
+    icon_style_inactive: "color: rgb(255, 0, 85);"
+
+sonytv:
+  widget_type: media_player
+  title: Сони
+  entity: media_player.sonytv
+
+
+
+clock:
+    widget_type: clock
+    time_format: 24hr
+
+reload:
+    widget_type: reload
+    title: Презареди
+
+temp:
+    widget_type: sensor
+    title: Температура
+    entity: sensor.tank_temp
+
+back:
+    widget_type: navigate
+    title: Назад
+    icon_inactive: fa-home
+    url: /main
+    skin: glassic

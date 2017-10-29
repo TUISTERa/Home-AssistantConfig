@@ -1,21 +1,86 @@
 ##
 ## Main arguments, all optional
 ##
-title: Main Panel
+title: Основен панел
 widget_dimensions: [110, 110]
 widget_size: [1, 1]
 widget_margins: [5, 5]
 columns: 3
 global_parameters:
+    skin: glassic
     use_comma: 0
     precision: 1
     use_hass_icon: 1
 
-layout:
-    - clock(2x1), temp
-    - kitchen_1(2x1), light.bedroom_1
-    - reload, restart
 
+
+layout:
+    - skynet(3x1)
+    - clock(2x1), temp
+    - georgi, plamena, gergana
+    - kitchen_1, light.bedroom_1, reload
+    - media, tank, elena
+
+
+georgi:
+    widget_type: device_tracker
+    device: georgi_coolpad
+    title: Георги
+    icon_on: fa-male
+    icon_off: fa-male
+    state_text: 1
+    state_map:
+      "home": У дома
+      "not_home": Навън
+    active_map:
+      - home
+
+plamena:
+    widget_type: device_tracker
+    device: plamena_elephone
+    title: Пламена
+    icon_on: fa-female
+    icon_off: fa-female
+    state_text: 1
+    state_map:
+      "home": У дома
+      "not_home": Навън
+    active_map:
+      - home
+
+gergana:
+    widget_type: device_tracker
+    device: android7099bb111999b997
+    title: Гергана
+    icon_on: fa-child
+    icon_off: fa-child
+    state_text: 1
+    state_map:
+      "home": У дома
+      "not_home": Навън
+    active_map:
+      - home
+
+tank:
+    widget_type: navigate
+    title: Аквариум
+    icon_inactive: mdi-fish
+    url: /tank
+    skin: glassic
+
+elena:
+    widget_type: navigate
+    title: Елена
+    icon_inactive: fa-bed
+    url: /elena
+    skin: glassic
+
+media:
+    widget_type: navigate
+    title: Медия
+    icon_inactive: fa-tv
+    url: /media
+    skin: glassic
 
 
 kitchen_1:
@@ -28,6 +93,12 @@ kitchen_1:
         #color_temp: 250
         #rgb_color: 0, 127, 255
         # xy_color: "0.1, 0.9"
+    icon_on: mdi-lightbulb-on
+    icon_off: mdi-lightbulb
+    state_text: 1
+    state_map:
+      "on": Включено
+      "off": Изключено
 
 
 clock:
@@ -42,6 +113,14 @@ temp:
   widget_type: sensor
   title: Температура
   entity: sensor.external_temp
+
+
+
+skynet:
+  widget_type: label
+#  title: label
+#  title2: label 2
+  text: SKYNET
 
 # hall:
 #   widget_type: light

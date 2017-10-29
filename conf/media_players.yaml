@@ -11,18 +11,14 @@
   use_episode_art: true
   use_custom_entity_ids: true
 
-
-- platform: kodi
-  host: 192.168.13.3
-  name: bedroom_1
-
 - platform: kodi
   host: 192.168.13.13
-  name: bedroom_2
-#- platform: universal
-#  name: skyplayer
-#  children:
-#    - media_player.sonytv
-#    - media_player.kodi_sony
-#    - media_player.plex
+  name: Kodi Sony
+
+- platform: universal
+  name: skyplayer
+  children:
+    - media_player.kodi_sony
+    - media_player.sonytv
+    - media_player.plex
 

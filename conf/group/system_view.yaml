@@ -3,10 +3,7 @@ system_view:
   icon: mdi:settings
   entities: 
     - group.ip_addresses
-    - sensor.cpuspeed
-    - sensor.time_date
-    # - group.date_time_cpu
-    - binary_sensor.modem 
+    - sensor.uptime
 
 
 ip_addresses:

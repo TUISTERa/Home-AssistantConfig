@@ -1,0 +1,62 @@
+##
+## Main arguments, all optional
+##
+title: Управление на аквариум
+widget_dimensions: [150, 150]
+widget_size: [1, 1]
+widget_margins: [5, 5]
+icon: mdi-fish
+columns: 2
+global_parameters:
+    use_comma: 0
+    precision: 1
+
+layout:
+    - clock, temp
+    - light, switch
+    - reload, back
+
+
+
+
+clock:
+    widget_type: clock
+    time_format: 24hr
+
+reload:
+    widget_type: reload
+    title: Презареди
+
+temp:
+    widget_type: sensor
+    title: Температура
+    entity: sensor.tank_temp
+
+light:
+    widget_type: switch
+    title: Осветление
+    icon_on: mdi-lightbulb-on
+    icon_off: mdi-lightbulb
+    entity: light.fish_tank_lights
+    state_text: 1
+    state_map:
+      "on": Включено
+      "off": Изключено
+
+switch:
+    widget_type: switch
+    title: Охлаждане
+    icon_on: mdi-fan
+    icon_off: mdi-fan    
+    entity: switch.fish_tank_fans
+    state_text: 1
+    state_map:
+      "on": Включено
+      "off": Изключено
+
+back:
+    widget_type: navigate
+    title: Назад
+    icon_inactive: fa-home
+    url: /main
+    skin: clear_sky

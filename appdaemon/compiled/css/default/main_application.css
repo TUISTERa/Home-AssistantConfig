@@ -201,6 +201,44 @@ input {
 }
 
 .modalDialogCloseButton:hover { background: #444; }
+.widget-basedisplay-default-skynet .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-skynet .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-skynet .valueunit {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-skynet .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-skynet .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-skynet .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
 .widget-baseclock-default-clock.date {
 	position: absolute;
 	top: 5px;
@@ -247,6 +285,117 @@ input {
 	position: absolute;
 	bottom: -3px;
 	width: 100%;
+}
+
+.widget-baseswitch-default-georgi {
+	position: relative;
+}
+
+.widget-baseswitch-default-georgi .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-georgi .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-georgi .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-georgi .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-georgi .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-plamena {
+	position: relative;
+}
+
+.widget-baseswitch-default-plamena .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-gergana {
+	position: relative;
+}
+
+.widget-baseswitch-default-gergana .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .widget-baselight-default-kitchen-1 {
@@ -435,11 +584,81 @@ input {
 	width: 100%;
 	height: 100%;
 }
+.widget-javascript-default-media .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
 
-.widget-baseerror-default-restart .error {
+.widget-javascript-default-media .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
+.widget-javascript-default-media .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
 
+.widget-javascript-default-media .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-javascript-default-tank .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-javascript-default-tank .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-javascript-default-tank .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-javascript-default-tank .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-javascript-default-elena .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-javascript-default-elena .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-javascript-default-elena .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-javascript-default-elena .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

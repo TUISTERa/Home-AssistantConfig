@@ -230,6 +230,44 @@ h3 {
 
 .modalDialogCloseButton:hover { background: #313133 }
 
+.widget-basedisplay-default-skynet .unit {
+	font-size: 225%;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.widget-basedisplay-default-skynet .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.widget-basedisplay-default-skynet .valueunit {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-skynet .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-skynet .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-basedisplay-default-skynet .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
 .widget-baseclock-default-clock.date {
 	position: absolute;
 	top: 5px;
@@ -278,39 +316,150 @@ h3 {
 	width: 100%;
 }
 
-.widget-baselight-default-light-kitchen-1 {
+.widget-baseswitch-default-georgi {
 	position: relative;
 }
 
-.widget-baselight-default-light-kitchen-1 .state_text {
-	font-size: 85%;
-}
-
-.widget-baselight-default-light-kitchen-1 .title {
+.widget-baseswitch-default-georgi .title {
 	position: absolute;
 	top: 5px;
 	width: 100%;
 }
 
-.widget-baselight-default-light-kitchen-1 .title2 {
+.widget-baseswitch-default-georgi .title2 {
 	position: absolute;
 	top: 23px;
 	width: 100%;
 }
 
-.widget-baselight-default-light-kitchen-1 .state_text {
+.widget-baseswitch-default-georgi .state_text {
 	position: absolute;
-	top: 38px;
+	bottom: -3px;
 	width: 100%;
 }
 
-.widget-baselight-default-light-kitchen-1 .icon {
+.widget-baseswitch-default-georgi .icon {
 	position: absolute;
 	top: 43px;
 	width: 100%;
 }
 
-.widget-baselight-default-light-kitchen-1 .toggle-area {
+.widget-baseswitch-default-georgi .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-plamena {
+	position: relative;
+}
+
+.widget-baseswitch-default-plamena .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-plamena .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baseswitch-default-gergana {
+	position: relative;
+}
+
+.widget-baseswitch-default-gergana .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .state_text {
+	position: absolute;
+	bottom: -3px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baseswitch-default-gergana .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-baselight-default-kitchen-1 {
+	position: relative;
+}
+
+.widget-baselight-default-kitchen-1 .state_text {
+	font-size: 85%;
+}
+
+.widget-baselight-default-kitchen-1 .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-1 .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-1 .state_text {
+	position: absolute;
+	top: 38px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-1 .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-baselight-default-kitchen-1 .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;
@@ -319,21 +468,21 @@ h3 {
 	height: 75%;
 }
 
-.widget-baselight-default-light-kitchen-1 .level {
+.widget-baselight-default-kitchen-1 .level {
 	display: inline-block;
 }
 
-.widget-baselight-default-light-kitchen-1 .unit {
+.widget-baselight-default-kitchen-1 .unit {
 	display: inline-block;
 }
 
-.widget-baselight-default-light-kitchen-1 .levelunit {
+.widget-baselight-default-kitchen-1 .levelunit {
 	position: absolute;
 	bottom: 5px;
 	width: 100%;
 }
 
-.widget-baselight-default-light-kitchen-1 .secondary-icon {
+.widget-baselight-default-kitchen-1 .secondary-icon {
 	position: absolute;
 	bottom: 0px;
 	font-size: 20px;
@@ -341,20 +490,20 @@ h3 {
 	color: white;
 }
 
-.widget-baselight-default-light-kitchen-1 .secondary-icon.plus {
+.widget-baselight-default-kitchen-1 .secondary-icon.plus {
 	right: 24px;
 }
 
-.widget-baselight-default-light-kitchen-1 .secondary-icon.plus i {
+.widget-baselight-default-kitchen-1 .secondary-icon.plus i {
 	padding-top: 10px;
 	padding-left: 30px;
 }
 
-.widget-baselight-default-light-kitchen-1 .secondary-icon.minus {
+.widget-baselight-default-kitchen-1 .secondary-icon.minus {
 	left: 8px;
 }
 
-.widget-baselight-default-light-kitchen-1 .secondary-icon.minus i {
+.widget-baselight-default-kitchen-1 .secondary-icon.minus i {
 	padding-top: 10px;
 	padding-right: 30px;
 }
@@ -438,216 +587,6 @@ h3 {
 	padding-top: 10px;
 	padding-right: 30px;
 }
-.widget-baselight-default-hall {
-	position: relative;
-}
-
-.widget-baselight-default-hall .state_text {
-	font-size: 85%;
-}
-
-.widget-baselight-default-hall .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-baselight-default-hall .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-baselight-default-hall .state_text {
-	position: absolute;
-	top: 38px;
-	width: 100%;
-}
-
-.widget-baselight-default-hall .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-baselight-default-hall .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 75%;
-}
-
-.widget-baselight-default-hall .level {
-	display: inline-block;
-}
-
-.widget-baselight-default-hall .unit {
-	display: inline-block;
-}
-
-.widget-baselight-default-hall .levelunit {
-	position: absolute;
-	bottom: 5px;
-	width: 100%;
-}
-
-.widget-baselight-default-hall .secondary-icon {
-	position: absolute;
-	bottom: 0px;
-	font-size: 20px;
-	width: 32px;
-	color: white;
-}
-
-.widget-baselight-default-hall .secondary-icon.plus {
-	right: 24px;
-}
-
-.widget-baselight-default-hall .secondary-icon.plus i {
-	padding-top: 10px;
-	padding-left: 30px;
-}
-
-.widget-baselight-default-hall .secondary-icon.minus {
-	left: 8px;
-}
-
-.widget-baselight-default-hall .secondary-icon.minus i {
-	padding-top: 10px;
-	padding-right: 30px;
-}
-.widget-javascript-default-default .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-javascript-default-default .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-javascript-default-default .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-javascript-default-default .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-javascript-default-glassic .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-javascript-default-glassic .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-javascript-default-glassic .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-javascript-default-glassic .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-javascript-default-simplyred .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-javascript-default-simplyred .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-javascript-default-simplyred .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-javascript-default-simplyred .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-javascript-default-obsidian .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-javascript-default-obsidian .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-javascript-default-obsidian .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-javascript-default-obsidian .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.widget-javascript-default-zen .icon {
-	position: absolute;
-	top: 43px;
-	width: 100%;
-}
-
-.widget-javascript-default-zen .title {
-	position: absolute;
-	top: 5px;
-	width: 100%;
-}
-
-.widget-javascript-default-zen .title2 {
-	position: absolute;
-	top: 23px;
-	width: 100%;
-}
-
-.widget-javascript-default-zen .toggle-area {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 .widget-javascript-default-reload .icon {
 	position: absolute;
 	top: 43px;
@@ -667,6 +606,84 @@ h3 {
 }
 
 .widget-javascript-default-reload .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-javascript-default-media .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-javascript-default-media .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-javascript-default-media .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-javascript-default-media .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-javascript-default-tank .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-javascript-default-tank .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-javascript-default-tank .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-javascript-default-tank .toggle-area {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.widget-javascript-default-elena .icon {
+	position: absolute;
+	top: 43px;
+	width: 100%;
+}
+
+.widget-javascript-default-elena .title {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+}
+
+.widget-javascript-default-elena .title2 {
+	position: absolute;
+	top: 23px;
+	width: 100%;
+}
+
+.widget-javascript-default-elena .toggle-area {
 	z-index: 10;
 	position: absolute;
 	top: 0;

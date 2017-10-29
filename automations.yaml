@@ -70,3 +70,27 @@
   trigger:
   - at: '22:00:10'
     platform: time
+
+
+- alias: Fish Tank Morning Lights On
+  action:
+  - alias: Turn lights On
+    data:
+      entity_id: light.fish_tank_lights
+    service: homeassistant.turn_on
+  id: '1509007001544'
+  trigger:
+  - at: '06:15:00'
+    platform: time
+
+
+- alias: Fish Tank Morning Lights Off
+  action:
+  - alias: Turn lights Off
+    data:
+      entity_id: light.fish_tank_lights
+    service: homeassistant.turn_off
+  id: '1509007001545'
+  trigger:
+  - at: '08:40:00'
+    platform: time

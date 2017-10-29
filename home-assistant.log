@@ -1,70 +1,1204 @@
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.ping
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.wunderground
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.wunderground
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.template
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.calendar] Setting up calendar.google
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.calendar] Setting up calendar.google
-2017-10-26 13:11:13 INFO (MainThread) [homeassistant.components.calendar] Setting up calendar.google
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.telegram_bot] Setting up telegram_bot.polling
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.yr
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.notify] Setting up notify.telegram
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.darksky
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.notify] Setting up notify.kodi
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.kodi
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.braviatv
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.kodi
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.media_player.kodi] Unable to fetch kodi data
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.plex
-2017-10-26 13:11:14 INFO (Thread-5) [homeassistant.components.media_player.plex] Discovery configuration done (no token needed)
-2017-10-26 13:11:14 INFO (Thread-5) [homeassistant.components.media_player.plex] Connected to: http://192.168.13.3:32400
-2017-10-26 13:11:14 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
-2017-10-26 13:11:24 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Fish Tank Lights On
-2017-10-26 13:11:24 INFO (MainThread) [homeassistant.components.automation] Initialized trigger ChargedBattery
-2017-10-26 13:11:24 INFO (MainThread) [homeassistant.components.automation] Initialized trigger modem
-2017-10-26 13:11:24 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Fish Tank Lights Off
-2017-10-26 13:11:24 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Update notifications
-2017-10-26 13:11:24 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Check if user is at home and notify
-2017-10-26 15:00:00 INFO (MainThread) [homeassistant.components.automation] Executing Fish Tank Lights On
-2017-10-26 16:51:58 INFO (MainThread) [homeassistant.components.automation] Executing modem
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.wunderground
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.wunderground
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.rest
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.template
+2017-10-29 08:58:54 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.uptime
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.ping
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.camera] Setting up camera.mjpeg
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.binary_sensor] Setting up binary_sensor.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.template
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.light] Setting up light.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.switch] Setting up switch.mqtt
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.calendar] Setting up calendar.google
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.calendar] Setting up calendar.google
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.calendar] Setting up calendar.google
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.telegram_bot] Setting up telegram_bot.polling
+2017-10-29 08:58:55 INFO (Thread-5) [homeassistant.components.zwave] Z-Wave network autoheal is enabled
+2017-10-29 08:58:55 INFO (MainThread) [homeassistant.components.notify] Setting up notify.telegram
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.yr
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.sensor] Setting up sensor.darksky
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.notify] Setting up notify.kodi
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.braviatv
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.kodi
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.plex
+2017-10-29 08:58:56 INFO (Thread-12) [homeassistant.components.media_player.plex] Discovery configuration done (no token needed)
+2017-10-29 08:58:56 INFO (Thread-12) [homeassistant.components.media_player.plex] Connected to: http://192.168.13.3:32400
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.universal
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.nmap_tracker
+2017-10-29 08:58:56 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 08:58:56 INFO (MainThread) [homeassistant.components.device_tracker] Setting up device_tracker.owntracks_http
+2017-10-29 08:59:02 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 08:59:02 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanner initialized
+2017-10-29 08:59:02 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 08:59:07 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 08:59:07 INFO (Thread-4) [homeassistant.components.zwave] Starting Z-Wave network...
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Check if user is at home and notify
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger ChargedBattery
+2017-10-29 08:59:07 DEBUG (Thread-4) [homeassistant.components.zwave] network state: 0 Network is stopped
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Fish Tank Lights On
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger modem
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Fish Tank Morning Lights Off
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Update notifications
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Fish Tank Morning Lights On
+2017-10-29 08:59:07 INFO (MainThread) [homeassistant.components.automation] Initialized trigger Fish Tank Lights Off
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [161, 32, 16, 49, 33, 17, 7, 8]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [8]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [17, 64]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [17, 64]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [17, 64]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [17]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [17, 18]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [64]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] value.command_class 32 not in command_class [49, 50, 113, 156]
+2017-10-29 08:59:07 DEBUG (Dummy-14) [homeassistant.components.zwave.util] node.generic 2 not in generic_device_class [161, 32, 16, 64, 33, 17, 7, 1, 18, 15, 8, 24]
+2017-10-29 08:59:07 INFO (Dummy-14) [homeassistant.components.zwave] Z-Wave network is complete. All nodes on the network have been queried
+2017-10-29 08:59:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:08 DEBUG (Thread-4) [homeassistant.components.zwave] network state: 10 Network ready
+2017-10-29 08:59:08 INFO (Thread-4) [homeassistant.components.zwave] Z-Wave ready after 1 seconds
+2017-10-29 08:59:08 INFO (Thread-4) [homeassistant.components.zwave] Z-Wave polling interval set to 60000 ms
+2017-10-29 08:59:10 INFO (MainThread) [homeassistant.components.http] Serving /api/websocket to 127.0.0.1 (auth: True)
+2017-10-29 08:59:10 INFO (MainThread) [homeassistant.components.http] Serving /api/websocket to 127.0.0.1 (auth: True)
+2017-10-29 08:59:11 INFO (MainThread) [homeassistant.components.http] Serving /api/states to ::ffff:c0a8:d03 (auth: True)
+2017-10-29 08:59:11 INFO (MainThread) [homeassistant.components.http] Serving /api/websocket to 127.0.0.1 (auth: True)
+2017-10-29 08:59:14 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 08:59:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:19 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 08:59:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:26 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 08:59:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:31 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 08:59:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:39 INFO (MainThread) [homeassistant.components.http] Serving /api/websocket to 127.0.0.1 (auth: True)
+2017-10-29 08:59:39 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 08:59:40 INFO (MainThread) [homeassistant.components.http] Serving /api/themes to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 08:59:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 08:59:44 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 08:59:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 08:59:51 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 08:59:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 08:59:56 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 08:59:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:00:04 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:00:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:09 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:00:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:00:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:16 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:00:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:00:21 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:00:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:29 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:00:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:00:34 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:00:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:00:41 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:00:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:46 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:00:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:00:54 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:00:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:00:59 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:01:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:01:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:07 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:01:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:01:12 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:01:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:20 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:01:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:01:25 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:01:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:01:33 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:01:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:38 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:01:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:01:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:46 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:01:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:01:51 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:01:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:01:59 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:02:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:02:04 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:02:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:02:11 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:02:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:16 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:02:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:02:24 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:02:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:29 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:02:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:02:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:36 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:02:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:02:41 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:02:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:49 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:02:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:02:54 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:02:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:02:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:03:02 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:03:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:07 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:03:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:03:15 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:03:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:20 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:03:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:03:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:28 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:03:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:03:33 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:03:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:03:41 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:03:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:46 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:03:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:03:54 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:03:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:03:59 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:04:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:04:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:07 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:04:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:04:12 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:04:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:20 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:04:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:04:25 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:04:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:04:33 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:04:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:38 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:04:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:04:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:46 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:04:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:04:51 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:04:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:04:59 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:05:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:05:04 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:05:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:05:12 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:05:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:17 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:05:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:05:25 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:05:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:30 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:05:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:05:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:38 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:05:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:05:43 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:05:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:05:51 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:05:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:05:56 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:05:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:06:04 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:06:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:09 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:06:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:06:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:17 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:06:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:06:22 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:06:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:30 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:06:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:06:35 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:06:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:06:43 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:06:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:48 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:06:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:06:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:06:56 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:06:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:07:01 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:07:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:09 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:07:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:07:14 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:07:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:20 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:07:22 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:07:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:27 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:07:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:30 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:07:35 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:07:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:40 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:07:40 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:07:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:48 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:07:50 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:07:53 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:07:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:07:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:00 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:08:01 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:08:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:06 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:08:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:10 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:08:14 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:08:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:19 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:08:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:08:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:27 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:08:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:08:32 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:08:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:40 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:08:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:08:45 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:08:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:08:53 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:08:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:08:58 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:09:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:09:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:06 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:09:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:09:12 INFO (MainThread) [homeassistant.components.http] Serving /api/states to ::ffff:c0a8:d03 (auth: True)
+2017-10-29 09:09:13 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:09:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:19 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:09:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:09:24 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:09:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:09:32 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:09:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:37 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:09:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:09:45 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:09:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:50 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:09:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:09:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:09:58 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:10:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:10:03 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:10:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:11 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:10:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:10:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:16 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:10:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:10:24 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:10:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:29 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:10:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:10:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:37 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:10:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:10:42 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:10:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:50 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:10:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:10:55 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:10:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:10:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:11:03 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:11:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:08 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:11:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:11:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:16 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:11:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:11:21 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:11:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:29 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:11:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:11:34 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:11:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:11:42 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:11:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:47 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:11:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:11:55 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:11:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:11:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:00 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:12:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:12:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:08 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:12:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:12:13 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:12:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:21 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:12:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:12:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:26 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:12:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:12:34 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:12:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:39 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:12:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:12:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:47 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:12:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:12:52 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:12:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:12:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:00 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:13:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:13:05 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:13:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:13:13 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:13:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:18 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:13:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:13:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:26 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:13:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:13:31 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:13:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:39 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:13:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:13:44 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:13:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:51 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:13:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:13:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:13:56 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:13:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:14:04 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:14:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:09 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:14:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:14:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:17 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:14:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:14:22 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:14:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:30 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:14:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:14:35 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:14:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:14:43 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:14:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:48 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:14:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:14:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:14:56 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:14:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:15:01 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:15:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:09 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:15:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:15:14 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:15:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:15:22 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:15:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:27 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:15:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:15:35 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:15:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:40 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:15:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:15:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:48 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:15:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:15:53 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:15:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:15:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:01 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:16:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:16:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:06 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:16:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:16:14 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:16:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:19 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:16:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:16:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:27 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:16:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:16:32 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:16:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:40 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:16:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:16:45 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:16:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:16:53 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:16:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:16:58 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:17:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:17:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:06 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:17:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:11 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:17:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:17:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:19 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:17:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:17:24 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:17:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:17:32 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:17:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:37 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:17:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:17:45 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:17:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:50 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:17:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:17:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:17:58 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:18:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:18:03 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:18:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:11 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:18:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:18:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:16 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:18:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:18:24 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:18:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:29 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:18:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:18:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:37 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:18:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:18:42 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:18:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:50 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:18:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:18:55 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:18:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:18:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:19:03 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:19:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:08 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:19:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:19:13 INFO (MainThread) [homeassistant.components.http] Serving /api/states to ::ffff:c0a8:d03 (auth: True)
+2017-10-29 09:19:15 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:19:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:19 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:19:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:19:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:28 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:19:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:19:33 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:19:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:40 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:19:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:19:45 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:19:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:19:53 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:19:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:19:57 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:19:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:20:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:06 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:20:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:11 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:20:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:20:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:19 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:20:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:20:24 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:20:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:31 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:20:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:20:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:36 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:20:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:20:44 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:20:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:49 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:20:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:20:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:20:57 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:20:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:21:02 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:21:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:10 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:21:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:21:15 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:21:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:21:23 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:21:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:28 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:21:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:21:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:36 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:21:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:41 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:21:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:21:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:49 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:21:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:21:54 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:21:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:21:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:22:02 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:22:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:07 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:22:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:22:15 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:22:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:20 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:22:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:22:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:28 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:22:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:22:33 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:22:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:41 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:22:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:22:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:46 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:22:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:22:54 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:22:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:22:59 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:23:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:23:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:07 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:23:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:23:12 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:23:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:20 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:23:22 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:23:25 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:23:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:23:33 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:23:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:38 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:23:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:23:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:46 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:23:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:23:51 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:23:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:23:59 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:24:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:24:04 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:24:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:24:12 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:24:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:17 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:24:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:24:25 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:24:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:30 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:24:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:24:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:38 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:24:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:24:43 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:24:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:51 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:24:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:24:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:24:56 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:24:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:25:04 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:25:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:09 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:25:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:25:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:16 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:25:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:25:21 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:25:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:29 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:25:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:25:34 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:25:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:25:42 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:25:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:47 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:25:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:25:55 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:25:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:25:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:00 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:26:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:26:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:08 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:26:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:26:13 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:26:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:21 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:26:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:26:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:26 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:26:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:26:34 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:26:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:39 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:26:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:26:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:47 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:26:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:26:52 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:26:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:26:59 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:27:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:27:04 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:27:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:27:12 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:27:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:17 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:27:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:27:25 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:27:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:30 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:27:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:27:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:38 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:27:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:27:43 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:27:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:51 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:27:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:27:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:27:56 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:27:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:28:04 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:28:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:09 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:28:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:28:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:16 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:28:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:21 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:28:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:28:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:29 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:28:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:28:34 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:28:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:28:42 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:28:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:47 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:28:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:28:55 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:28:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:28:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:00 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:29:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:29:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:08 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:29:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:29:13 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:29:14 INFO (MainThread) [homeassistant.components.http] Serving /api/states to ::ffff:c0a8:d03 (auth: True)
+2017-10-29 09:29:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:21 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:29:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:29:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:26 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:29:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:29:34 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:29:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:39 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:29:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:29:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:47 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:29:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:29:52 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:29:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:29:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:00 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:30:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:30:05 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:30:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:30:13 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:30:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:18 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:30:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:30:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:26 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:30:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:31 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:30:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:30:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:39 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:30:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:30:44 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:30:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:30:52 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:30:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:30:57 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:30:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:31:05 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:31:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:10 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:31:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:31:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:18 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:31:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:31:23 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:31:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:31 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:31:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:31:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:36 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:31:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:31:44 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:31:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:49 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:31:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:31:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:31:57 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:31:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:32:04 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:32:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:09 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:32:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:32:14 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:32:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:32:22 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:32:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:27 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:32:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:32:35 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:32:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:40 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:32:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:32:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:48 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:32:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:32:53 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:32:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:32:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:01 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:33:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:33:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:06 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:33:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:33:14 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:33:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:19 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:33:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:33:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:27 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:33:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:33:32 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:33:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:40 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:33:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:33:45 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:33:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:33:53 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:33:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:33:58 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:34:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:34:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:06 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:34:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:11 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:34:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:34:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:19 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:34:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:34:24 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:34:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:34:32 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:34:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:37 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:34:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:34:45 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:34:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:50 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:34:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:34:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:34:58 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:35:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:35:03 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:35:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:11 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:35:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:35:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:16 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:35:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:35:23 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:35:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:28 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:35:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:35:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:36 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:35:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:41 INFO (Thread-5) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:35:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:35:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:49 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:35:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:35:54 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:35:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:35:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:36:02 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:36:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:07 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:36:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:36:15 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:36:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:20 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:36:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:36:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:28 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:36:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:36:33 INFO (Thread-4) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:36:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:41 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:36:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:36:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:46 INFO (Thread-8) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:36:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:36:54 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:36:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:36:59 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:37:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:37:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:07 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:37:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:37:12 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:37:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:20 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:37:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:37:25 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:37:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:37:33 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:37:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:38 INFO (Thread-3) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:37:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:37:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:46 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:37:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:51 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:37:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:37:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:37:59 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:38:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:38:04 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:38:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:38:12 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:38:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:17 INFO (Thread-10) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:38:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:38:25 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:38:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:30 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:38:31 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:38:36 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:38 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:38 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:38:41 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:38:43 INFO (Thread-9) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:38:46 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:48 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:51 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:38:51 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:38:56 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:38:56 INFO (Thread-6) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:38:58 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:39:01 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:39:04 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:39:06 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:39:08 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:39:09 INFO (Thread-7) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:39:11 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:39:15 INFO (MainThread) [homeassistant.components.http] Serving /api/states to ::ffff:c0a8:d03 (auth: True)
+2017-10-29 09:39:16 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:39:17 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
+2017-10-29 09:39:18 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:39:21 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:c0a8:d0b (auth: True)
+2017-10-29 09:39:22 INFO (Thread-12) [homeassistant.components.device_tracker.nmap_tracker] nmap scan successful
+2017-10-29 09:39:26 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:39:28 INFO (MainThread) [homeassistant.components.http] Serving /api/camera_proxy/camera.front_door to ::ffff:d5a7:e1 (auth: True)
+2017-10-29 09:39:30 INFO (Thread-2) [homeassistant.components.device_tracker.nmap_tracker] Scanning...
