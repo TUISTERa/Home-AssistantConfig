@@ -36,7 +36,7 @@ sony:
 sonytv:
   widget_type: media_player
   title: Сони
-  entity: media_player.sonytv
+  entity: media_player.skyplayer
 
 
 

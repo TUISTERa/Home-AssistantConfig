@@ -1,0 +1,205 @@
+###############################################################################
+#   @author         :   TUISTERa
+#   @date           :   31.10.2017
+#   @package        :   Fish tank
+#   @description    :   Fish tank and automations
+###############################################################################
+homeassistant:
+  customize:
+
+    ################################################
+    ## Node Anchors
+    ################################################
+
+    package.node_anchors:
+      customize: &customize
+        # package: 'fishtank'
+        icon: mdi:fish
+
+
+    automation.fish_tank:
+      icon: mdi:fish
+
+    switch.fish_fans:
+      friendly_name: Охлаждане на аквариума
+
+    light.fish_tank_lights:
+      friendly_name: Осветление на аквариума
+
+    sensor.tank_temp:
+      friendly_name: Температура на водата
+
+    group.tank_view: 
+      order: 0
+
+    group.tank_group:
+      control: hidden   
+      friendly_name: Аквариум
+
+    group.tank_automation:
+        control: hidden   
+        friendly_name: Автоматизация
+
+    automation.fish_tank_evening_lights_off:
+      friendly_name: Изключване на осветлението вечер
+      icon: mdi:lightbulb-on
+    
+    automation.fish_tank_evening_lights_on:
+      friendly_name: Включване на осветлението вечер
+      icon: mdi:lightbulb-on-outline
+    
+    automation.fish_tank_morning_lights_off:
+      friendly_name: Изключване на осветлението сутрин
+      icon: mdi:lightbulb-on
+      
+    automation.fish_tank_morning_lights_on:
+      friendly_name: Включване на осветлението сутрин
+      icon: mdi:lightbulb-on-outline
+
+      
+#######################
+## TANK SWITCHES
+#######################
+switch:
+  - platform: mqtt
+    command_topic: "cmnd/sky/tank/dual_01/POWER2"
+    state_topic: "stat/sky/tank/dual_01/POWER2"
+    icon: mdi:fan
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    name: "Fish tank fans"
+    retain: true
+    hidden: true
+
+  - platform: template
+    switches:
+      fish_fans:
+        value_template: "{{ is_state('switch.fish_tank_fans', 'on') }}"
+        turn_on:
+          service: switch.turn_on
+          data:
+            entity_id: switch.fish_tank_fans
+        turn_off:
+          service: switch.turn_off
+          data:
+            entity_id: switch.fish_tank_fans
+        icon_template: >-
+          {% if is_state('switch.fish_tank_fans', 'on') %}
+            mdi:fan
+          {% else %}
+            mdi:fan-off
+          {% endif %}
+
+
+#################################################
+## TANK LIGHTS
+#################################################
+light:
+  - platform: mqtt
+    command_topic: "cmnd/sky/tank/dual_01/POWER1"
+    state_topic: "stat/sky/tank/dual_01/POWER1"
+    payload_on: "ON"
+    payload_off: "OFF"
+    optimistic: false
+    name: "Fish tank lights"
+    retain: true
+
+#######################
+## TANK SENSORS
+#######################
+sensor:
+  - platform: template
+    sensors:
+      tank_temp:
+        friendly_name: "Fish tank temperature"
+#        value_template: "{{ states.sensor.external_temp.state | round(0) }}"
+        value_template: "{{ 26 }}"
+        unit_of_measurement: "°C"
+
+
+
+#######################
+## TANK GROUP
+#######################
+
+group:
+  tank_group:        
+    entities:
+      - sensor.tank_temp
+      - light.fish_tank_lights
+      - switch.fish_fans
+
+  tank_automation:
+    entities:
+      - automation.fish_tank_evening_lights_off
+      - automation.fish_tank_evening_lights_on
+      - automation.fish_tank_morning_lights_off      
+      - automation.fish_tank_morning_lights_on
+
+
+
+#################################################
+## TANK VIEW
+#################################################
+  tank_view: 
+    view: yes
+    icon: mdi:fish
+    entities: 
+      - group.tank_group
+      - group.tank_automation
+
+#################################################
+## TANK AUTOMATIZATIONS
+#################################################
+
+automation:
+
+  - alias: Fish Tank Evening Lights On
+    action:
+    - alias: Turn lights On
+      data:
+        entity_id: light.fish_tank_lights
+      service: homeassistant.turn_on
+    - alias: Notify for automation run
+      data:
+        message: "\u041E\u0441\u0432\u0435\u0442\u043B\u0435\u043D\u0438\u0435\u0442\
+          \u043E \u0441\u0435 \u0432\u043A\u043B\u044E\u0447\u0438"
+      service: notify.Telegram
+    id: '1509007001527'
+    trigger:
+    - at: '15:00:00'
+      platform: time
+
+  - alias: Fish Tank Evening Lights Off
+    action:
+    - alias: Turn lights Off
+      data:
+        entity_id: light.fish_tank_lights
+      service: homeassistant.turn_off
+    id: '1509007001528'
+    trigger:
+    - at: '22:00:00'
+      platform: time
+
+  - alias: Fish Tank Morning Lights On
+    action:
+    - alias: Turn lights On
+      data:
+        entity_id: light.fish_tank_lights
+      service: homeassistant.turn_on
+    id: '1509007001544'
+    trigger:
+    - at: 06:15:00
+      platform: time
+
+  - alias: Fish Tank Morning Lights Off
+    action:
+    - alias: Turn lights Off
+      data:
+        entity_id: light.fish_tank_lights
+      service: homeassistant.turn_off
+    id: '1509007001545'
+    trigger:
+    - at: 08:40:00
+      platform: time

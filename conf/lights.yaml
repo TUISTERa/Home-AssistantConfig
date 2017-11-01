@@ -1,11 +1,3 @@
-- platform: mqtt
-  command_topic: "/sky/tank/dual_01/relay/0/set"
-  state_topic: "/sky/tank/dual_01/relay/0"
-  payload_on: "1"
-  payload_off: "0"
-  optimistic: false
-  name: "Fish tank lights"
-  retain: true
 
 
 - platform: mqtt

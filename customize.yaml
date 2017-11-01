@@ -2,6 +2,9 @@ device_tracker.mosquitto_coolpad: {}
 device_tracker.android2e9d8d7d5fce66b3: {}
 media_player.sonytv:
   friendly_name: Sony TV
+media_player.skyplayer:
+  friendly_name: SkyNet Player
+
 zone.maniac:
   radius: 50
 group.all_automations:
@@ -19,4 +22,4 @@ binary_sensor.floorplan:
   custom_ui_state_card: floorplan
   config: !include floorplan.yaml
 group.all_switches:
-  hidden: false
+  hidden: true

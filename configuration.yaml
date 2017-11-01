@@ -12,6 +12,7 @@ homeassistant:
   time_zone: Europe/Sofia
   # Customization file
   customize: !include customize.yaml
+  packages: !include_dir_named packages
 
 # Show links to resources in log and frontend
 #introduction:
@@ -34,10 +35,6 @@ config:
 #updater:
   # Optional, allows Home Assistant developers to focus on popular components.
   # include_used_components: true
-zwave:
-  usb_path: /dev/zwave
-  network_key: !secret zwave_network_key
-  debug: false
 
 ifttt:
   key: !secret ifttt
@@ -65,17 +62,21 @@ logbook:
       - sun
       - weblink
 
-logger:
-  default: critical
-  logs:
-    homeassistant.components: info
-    # homeassistant.components.telegram_bot.polling: critical
-    # homeassistant.components.device_tracker: critical
-    # homeassistant.components.camera: critical
-    # homeassistant.helpers.template: critical
-    # homeassistant.components.http: critical
-    homeassistant.components.zwave: debug
-
+# logger:
+#   default: warning
+#   logs:
+#     openzwave: critical
+#     pychromecast: critical
+#     homeassistant.core: critical
+#     homeassistant.components.telegram_bot.polling: critical
+#     homeassistant.components.device_tracker: critical
+#     homeassistant.components.camera: critical
+#     # homeassistant.helpers.template: critical
+#     homeassistant.components.http: critical
+#     homeassistant.components.zwave: critical
+#     # homeassistant.components.mqtt: info
+#     # homeassistant.components.light: info
+#     # homeassistant.components.switch: info
 # Track the sun
 sun:
 
@@ -108,6 +109,9 @@ weblink: !include conf/weblinks.yaml
 camera: !include conf/cameras.yaml
 binary_sensor: !include_dir_merge_list conf/binary_sensor
 zone: !include conf/zones.yaml
+
+
+
 
 panel_custom:   
   - name: floorplan

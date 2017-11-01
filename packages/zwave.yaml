@@ -1,0 +1,26 @@
+###############################################################################
+#   @author         :   TUISTERa
+#   @date           :   31.10.2017
+#   @package        :   ZWave
+#   @description    :   ZWave configuration
+###############################################################################
+homeassistant:
+  customize:
+
+    ################################################
+    ## Node Anchors
+    ################################################
+
+    package.node_anchors:
+      customize: &customize
+        icon: mdi:fish
+
+      
+#######################
+## MAIN CONFIG
+#######################
+#Uncomment next rows to enable zwave
+# zwave:
+#   usb_path: /dev/zwave
+#   network_key: !secret zwave_network_key
+#   debug: false
